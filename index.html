@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Prana Guide AI — trợ lý sức khỏe Thân–Tâm–Trí (Yoga & Thiền), tư vấn 24/7." />
+    <title>Prana Guide AI — Trợ lý Yoga & Thiền</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="landing">
+      <header class="landing-header">
+        <div class="landing-header-inner">
+          <div class="landing-brand">
+            <span class="landing-brand-icon">🧘</span>
+            <span>Prana Guide AI</span>
+          </div>
+          <button type="button" class="landing-btn landing-btn-primary" id="cta-header">💬 Trò chuyện ngay</button>
+        </div>
+      </header>
+
+      <main>
+        <section class="landing-hero">
+          <h1>Prana Guide AI — trợ lý sức khỏe<br />Thân · Tâm · Trí của bạn</h1>
+          <p>Yoga · Thiền · Sức khỏe Thân–Tâm–Trí — tư vấn Yoga, thiền và lối sống lành mạnh, sẵn sàng trò chuyện 24/7.</p>
+          <button type="button" class="landing-btn landing-btn-primary landing-btn-lg" id="cta-hero">💬 Bắt đầu trò chuyện</button>
+        </section>
+
+        <section class="landing-section">
+          <h2>Tính năng nổi bật</h2>
+          <div class="landing-features">
+            <div class="landing-feature-card">
+              <div class="landing-feature-icon">🧘</div>
+              <h3>Tư vấn Yoga cá nhân hóa</h3>
+              <p>Hướng dẫn tư thế, thiền, hơi thở dựa trên tài liệu kỹ thuật thật của trung tâm.</p>
+            </div>
+            <div class="landing-feature-card">
+              <div class="landing-feature-icon">🖼️</div>
+              <h3>Ảnh & video minh họa</h3>
+              <p>Tự động hiển thị ảnh và nhúng video YouTube ngay trong khung chat khi cần.</p>
+            </div>
+            <div class="landing-feature-card">
+              <div class="landing-feature-icon">🌐</div>
+              <h3>Song ngữ Việt – Anh</h3>
+              <p>Tự nhận diện và trả lời đúng theo ngôn ngữ bạn đang dùng.</p>
+            </div>
+            <div class="landing-feature-card">
+              <div class="landing-feature-icon">📅</div>
+              <h3>Hỗ trợ đặt lịch</h3>
+              <p>Thu thập tên, số điện thoại, thời gian mong muốn để đội ngũ liên hệ lại.</p>
+            </div>
+            <div class="landing-feature-card">
+              <div class="landing-feature-icon">📞</div>
+              <h3>Kết nối tư vấn viên</h3>
+              <p>Luôn có nút gặp tư vấn viên với hotline, Zalo, email khi cần hỗ trợ trực tiếp.</p>
+            </div>
+            <div class="landing-feature-card">
+              <div class="landing-feature-icon">🛡️</div>
+              <h3>An toàn sức khỏe</h3>
+              <p>Tuân thủ bộ quy tắc an toàn: không chẩn đoán bệnh, không thay thế bác sĩ, luôn chuyển hotline khi cần thiết.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="landing-section landing-section-alt">
+          <h2>Cách sử dụng</h2>
+          <div class="landing-steps">
+            <div class="landing-step">
+              <div class="landing-step-num">1</div>
+              <h3>Mở khung chat</h3>
+              <p>Bấm vào bong bóng 🧘 ở góc dưới bên phải màn hình.</p>
+            </div>
+            <div class="landing-step">
+              <div class="landing-step-num">2</div>
+              <h3>Đặt câu hỏi</h3>
+              <p>Gõ câu hỏi của bạn hoặc bấm một trong các nút gợi ý có sẵn.</p>
+            </div>
+            <div class="landing-step">
+              <div class="landing-step-num">3</div>
+              <h3>Nhận tư vấn ngay</h3>
+              <p>Bot trả lời sau vài giây; có thể đặt lịch hoặc gặp tư vấn viên bất cứ lúc nào.</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="landing-footer">
+        <p>
+          Hotline/Zalo: <a href="tel:0976188870">0976188870</a> · Email:
+          <a href="mailto:nguyenhuongk21@gmail.com">nguyenhuongk21@gmail.com</a> · Giờ làm việc: 8h–12h và 14h–21h
+        </p>
+        <p class="landing-footer-credit">© <span id="year"></span> Prana Guide AI</p>
+      </footer>
+    </div>
+
+    <div id="chat-widget-root"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
+    <script src="chat.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+      function openChat() {
+        document.querySelector(".chat-fab")?.click();
+      }
+      document.getElementById("cta-header").addEventListener("click", openChat);
+      document.getElementById("cta-hero").addEventListener("click", openChat);
+    </script>
+  </body>
+</html>
