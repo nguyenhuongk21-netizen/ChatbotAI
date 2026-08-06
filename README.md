@@ -5,18 +5,25 @@ Kiến trúc: **Google Apps Script** (backend gọi Gemini, không streaming) + 
 (trả lời hiện một lần) và mất phân quyền nhiều cấp (không có trang admin — sửa system
 prompt/kiến thức bằng cách mở trực tiếp `Code.gs` / `Knowledge.gs` trong Apps Script Editor).
 
+> ⚠️ Cấu trúc dưới đây đang trong quá trình chuyển sang quản lý bằng **git + clasp** (xem
+> yêu cầu mới nhất) — mục "Apps Script" sẽ được cập nhật lại sau khi nối `clasp` xong với
+> project thật (file `Code.gs`, `KhoKienThuc.gs`, `Admin.html`, `AdminJS.html`). Phần
+> **frontend bên dưới đã đúng với thực tế hiện tại** (đã đẩy lên GitHub, đang chờ bật Pages).
+
 ```
-prana-guide-apps-script/
-├── apps-script/          ← dán vào Apps Script Editor (script.google.com)
-│   ├── Code.gs            SYSTEM_PROMPT (1 hằng số duy nhất) + toàn bộ logic backend
-│   ├── Knowledge.gs        KNOWLEDGE_BASE (62 tư thế Yoga, chép nguyên văn)
-│   └── appsscript.json    Manifest
-└── site/                 ← đẩy lên GitHub, bật GitHub Pages
-    ├── index.html          Trang Landing (giới thiệu + widget chat)
-    ├── embed.html          Trang chỉ có widget, nền trong suốt — dùng để nhúng iframe
-    ├── chat.js             Lõi logic chat DUY NHẤT — cả 2 trang trên cùng dùng file này
-    ├── config.js           PROXY_URL + cấu hình hiển thị (tên bot, câu hỏi gợi ý, liên hệ...)
-    └── style.css           Toàn bộ giao diện
+prana-guide-apps-script/            (git repo — đã push lên GitHub)
+├── index.html          Trang Landing (giới thiệu + widget chat)
+├── embed.html           Trang chỉ có widget, nền trong suốt — dùng để nhúng iframe
+├── chat.js              Lõi logic chat DUY NHẤT (gồm cả cấu hình PROXY_URL/BOT_CONFIG
+│                        ở đầu file) — index.html và embed.html cùng dùng file này
+├── style.css            Toàn bộ giao diện
+├── .nojekyll             Bắt buộc để GitHub Pages phục vụ đúng file JS/CSS
+├── .gitignore
+└── apps-script/         ← sẽ đồng bộ bằng `clasp push`, không copy-paste tay nữa
+    ├── Code.gs           SYSTEM_PROMPT (1 hằng số duy nhất) + toàn bộ logic backend
+    ├── Knowledge.gs      KNOWLEDGE_BASE (62 tư thế Yoga, chép nguyên văn) — sẽ đổi tên
+    │                     thành KhoKienThuc.gs cho khớp project Apps Script đã có
+    └── appsscript.json  Manifest
 ```
 
 ---
@@ -81,10 +88,7 @@ prana-guide-apps-script/
 
 ## BƯỚC 6 — Upload file lên GitHub
 
-1. Trong repo vừa tạo, bấm **Add file → Upload files**.
-2. Kéo thả (hoặc chọn) toàn bộ **5 file trong thư mục `site/`**:
-   `index.html`, `embed.html`, `chat.js`, `config.js`, `style.css`.
-3. Bấm **Commit changes**.
+✅ Đã xong bằng `git push` — không cần thao tác tay. Repo: `github.com/nguyenhuongk21-netizen/ChatbotAI`.
 
 ## BƯỚC 7 — Bật GitHub Pages
 
@@ -97,18 +101,11 @@ prana-guide-apps-script/
 
 ## BƯỚC 8 — Dán URL Apps Script vào PROXY_URL
 
-1. Trên GitHub, mở file `config.js` trong repo → bấm biểu tượng **bút chì (Edit)**.
-2. Tìm dòng:
-   ```js
-   const PROXY_URL = "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE";
-   ```
-3. Thay bằng URL đã copy ở Bước 4, ví dụ:
-   ```js
-   const PROXY_URL = "https://script.google.com/macros/s/AKfycb.../exec";
-   ```
-4. Bấm **Commit changes**.
-5. Chờ 1–2 phút để GitHub Pages build lại, sau đó mở
-   `https://<tên-tài-khoản>.github.io/<tên-repo>/` — thử chat.
+1. Mở file `chat.js` (dòng khai báo `const PROXY_URL = "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE";`
+   ở đầu file).
+2. Thay bằng URL Web App thật lấy ở Bước 4.
+3. Lưu — vì đang dùng git, chỉ cần báo lại để tự động commit + push, GitHub Pages tự cập
+   nhật sau khi push (không cần thao tác tay trên GitHub nữa).
 
 ---
 
@@ -129,8 +126,8 @@ Dán vào block **Custom HTML** trên trang WordPress, hoặc vào `footer.php` 
 - **System prompt / quy tắc an toàn**: mở `Code.gs` trong Apps Script Editor, sửa nguyên khối
   trong `SYSTEM_PROMPT`, Save, rồi **Deploy → Manage deployments → New version** để áp dụng.
 - **Kho kiến thức**: mở `Knowledge.gs`, sửa `KNOWLEDGE_BASE`, Save, deploy lại tương tự.
-- **Tên bot, câu hỏi gợi ý, liên hệ, màu, logo**: sửa trực tiếp `config.js` trên GitHub —
-  KHÔNG cần deploy lại Apps Script, GitHub Pages tự cập nhật sau khi Commit.
+- **Tên bot, câu hỏi gợi ý, liên hệ, màu, logo**: sửa `BOT_CONFIG` ở đầu `chat.js` —
+  KHÔNG cần deploy lại Apps Script, GitHub Pages tự cập nhật sau khi push.
 
 ## Đã kiểm thử trước khi giao
 
