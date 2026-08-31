@@ -104,7 +104,7 @@ var DEFAULT_BOT_CONFIG = {
   marqueeText: '',
 };
 
-var GEMINI_MODEL = 'gemini-2.5-flash';
+var GEMINI_MODEL = 'gemini-3.6-flash'; // gemini-2.5-flash đã ngừng phục vụ người dùng mới (thông báo từ Google)
 var MAX_MESSAGES = 40; // tối đa số tin nhắn giữ lại trong 1 lượt gọi (chống lạm dụng)
 var MAX_MESSAGE_LENGTH = 4000; // tối đa ký tự mỗi tin nhắn
 var KNOWLEDGE_DRIVE_FILENAME = 'PranaGuide_KnowledgeBase_Override.txt';
