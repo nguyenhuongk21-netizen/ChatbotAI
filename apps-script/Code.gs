@@ -363,7 +363,7 @@ function callGemini_(messages) {
 
   if (status !== 200) {
     Logger.log('Gemini API lỗi ' + status + ': ' + bodyText);
-    throw new Error('Gemini API lỗi (' + status + '): ' + bodyText);
+    throw new Error('Gemini API lỗi (' + status + ') [v2]: ' + bodyText);
   }
 
   var data = JSON.parse(bodyText);
