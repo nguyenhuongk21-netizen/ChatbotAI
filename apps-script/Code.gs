@@ -171,7 +171,6 @@ function doPost(e) {
     var hotline = getPublicBotConfig_().contactInfo.zalo;
     return jsonResponse_({
       error: 'Xin lỗi, mình đang gặp sự cố kỹ thuật. Bạn vui lòng liên hệ hotline/Zalo ' + hotline + ' để được hỗ trợ nhé.',
-      _debug: String(err && err.message ? err.message : err),
     });
   }
 }
@@ -337,11 +336,11 @@ function callGemini_(messages) {
   var payload = {
     contents: contents,
     systemInstruction: { parts: [{ text: fullSystemInstruction }] },
-    // Tắt chế độ "suy luận sâu" (thinking) — bot chăm sóc khách hàng/FAQ không cần suy
-    // luận nhiều bước, tắt để giảm độ trễ (model có thinking mặc định có thể mất tới
-    // 30–200+ giây/câu trả lời, không chấp nhận được cho chat trực tiếp).
+    // Giảm độ trễ suy luận — model gemini-3.x dùng thinkingLevel (không phải thinkingBudget,
+    // field đó dành cho model 2.5 và gây lỗi 400 INVALID_ARGUMENT trên model 3.x). "low" là
+    // mức thấp nhất mà mọi biến thể Gemini 3 đều hỗ trợ (một số bản không hỗ trợ "minimal").
     generationConfig: {
-      thinkingConfig: { thinkingBudget: 0 },
+      thinkingConfig: { thinkingLevel: 'low' },
     },
   };
 
@@ -363,7 +362,7 @@ function callGemini_(messages) {
 
   if (status !== 200) {
     Logger.log('Gemini API lỗi ' + status + ': ' + bodyText);
-    throw new Error('Gemini API lỗi (' + status + ') [v2]: ' + bodyText);
+    throw new Error('Gemini API lỗi (' + status + ')');
   }
 
   var data = JSON.parse(bodyText);
