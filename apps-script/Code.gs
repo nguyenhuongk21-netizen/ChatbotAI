@@ -171,6 +171,7 @@ function doPost(e) {
     var hotline = getPublicBotConfig_().contactInfo.zalo;
     return jsonResponse_({
       error: 'Xin lỗi, mình đang gặp sự cố kỹ thuật. Bạn vui lòng liên hệ hotline/Zalo ' + hotline + ' để được hỗ trợ nhé.',
+      _debug: String(err && err.message ? err.message : err),
     });
   }
 }
