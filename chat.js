@@ -14,7 +14,7 @@
 // ⚠️ VIỆC BẠN CẦN LÀM: sau khi deploy Apps Script thành Web App (xem README),
 // dán URL đó vào PROXY_URL bên dưới. Thiếu bước này thì chat KHÔNG hoạt động.
 // =============================================================================
-const PROXY_URL = "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE";
+const PROXY_URL = "https://script.google.com/macros/s/AKfycby6xbpYWMHcygt6Zgr5mv5XbjnD_JlN21r14O-u9uuGovzDSsb9hZiG0x9fcuFoC-yC/exec";
 
 // Cấu hình dự phòng — CHỈ dùng khi không gọi được Apps Script (mất mạng, PROXY_URL
 // sai...), để widget vẫn hiển thị được thay vì trắng trang. Cấu hình THẬT lấy từ
