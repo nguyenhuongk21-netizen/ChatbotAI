@@ -1,9 +1,11 @@
 /**
- * KHO KIẾN THỨC — TƯ THẾ YOGA
+ * KHO KIẾN THỨC — TƯ THẾ YOGA (giá trị MẶC ĐỊNH/dự phòng)
  * Chép NGUYÊN VĂN từ shared/knowledge/yoga-poses.md (bản Netlify/Supabase trước đó).
  * Không viết lại, không rút gọn, không thêm nội dung mới.
- * Sửa nội dung này = mở file này trong trình soạn thảo Apps Script, sửa trực tiếp,
- * lưu lại (Ctrl/Cmd+S) — không cần redeploy để có hiệu lực ngay cho lần chat tiếp theo.
+ *
+ * Đây là giá trị dự phòng — nếu bạn đã lưu bản chỉnh sửa qua trang Admin, bot sẽ
+ * dùng bản đó (lưu trên Google Drive) thay vì hằng số này. Xem
+ * getEffectiveKnowledgeBase_() trong Code.gs để hiểu cơ chế 2 tầng.
  */
 var KNOWLEDGE_BASE = `
 ## PHẦN I: TRỊ LIỆU CỔ VAI GÁY VÀ LƯNG

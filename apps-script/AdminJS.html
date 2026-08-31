@@ -1,0 +1,183 @@
+<script>
+  (function () {
+    "use strict";
+
+    let currentConfig = null;
+
+    function setStatus(elId, message, isError) {
+      const el = document.getElementById(elId);
+      el.textContent = message;
+      el.className = "status " + (isError ? "error" : "ok");
+      if (!isError) {
+        setTimeout(() => {
+          if (el.textContent === message) el.textContent = "";
+        }, 4000);
+      }
+    }
+
+    function renderQuestions(questions) {
+      const list = document.getElementById("questions-list");
+      list.innerHTML = "";
+      questions.forEach((q, i) => {
+        const row = document.createElement("div");
+        row.className = "question-row";
+        row.innerHTML =
+          '<input type="text" placeholder="Nhãn hiển thị" value="' +
+          escapeAttr(q.label) +
+          '" data-field="label" />' +
+          '<input type="text" placeholder="Câu hỏi gửi khi bấm" value="' +
+          escapeAttr(q.prompt) +
+          '" data-field="prompt" />' +
+          '<button type="button" class="btn btn-danger" data-remove="' +
+          i +
+          '">Xóa</button>';
+        list.appendChild(row);
+      });
+      list.querySelectorAll("[data-remove]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const idx = parseInt(btn.getAttribute("data-remove"), 10);
+          currentConfig.suggestedQuestions.splice(idx, 1);
+          renderQuestions(currentConfig.suggestedQuestions);
+        });
+      });
+    }
+
+    function escapeAttr(str) {
+      const div = document.createElement("div");
+      div.textContent = str || "";
+      return div.innerHTML.replace(/"/g, "&quot;");
+    }
+
+    function collectQuestionsFromForm() {
+      const rows = document.querySelectorAll("#questions-list .question-row");
+      const result = [];
+      rows.forEach((row) => {
+        const label = row.querySelector('[data-field="label"]').value.trim();
+        const prompt = row.querySelector('[data-field="prompt"]').value.trim();
+        if (label || prompt) result.push({ label: label, prompt: prompt });
+      });
+      return result;
+    }
+
+    function fillForm(data) {
+      currentConfig = data.botConfig;
+
+      document.getElementById("system-prompt").value = data.systemPrompt;
+      document.getElementById("knowledge-base").value = data.knowledgeBase;
+      document.getElementById("knowledge-length").textContent =
+        data.knowledgeBase.length.toLocaleString("vi-VN") + " ký tự";
+
+      document.getElementById("cfg-botName").value = currentConfig.botName || "";
+      document.getElementById("cfg-botSubtitle").value = currentConfig.botSubtitle || "";
+      document.getElementById("cfg-greeting").value = currentConfig.greeting || "";
+      document.getElementById("cfg-logoUrl").value = currentConfig.logoUrl || "";
+      const color = currentConfig.primaryColor || "#4f7a6b";
+      document.getElementById("cfg-primaryColor").value = color;
+      document.getElementById("cfg-primaryColorPicker").value = color;
+
+      const contact = currentConfig.contactInfo || {};
+      document.getElementById("cfg-hotline").value = contact.hotline || "";
+      document.getElementById("cfg-zalo").value = contact.zalo || "";
+      document.getElementById("cfg-email").value = contact.email || "";
+      document.getElementById("cfg-hours").value = contact.hours || "";
+
+      document.getElementById("cfg-marqueeEnabled").checked = !!currentConfig.marqueeEnabled;
+      document.getElementById("cfg-marqueeText").value = currentConfig.marqueeText || "";
+
+      renderQuestions(currentConfig.suggestedQuestions || []);
+    }
+
+    function loadData() {
+      google.script.run
+        .withSuccessHandler(fillForm)
+        .withFailureHandler((err) => {
+          document.getElementById("global-status").innerHTML =
+            '<p class="status error">Lỗi tải dữ liệu: ' + err.message + "</p>";
+        })
+        .adminGetData();
+    }
+
+    // ---- Sự kiện ----
+
+    document.getElementById("cfg-primaryColorPicker").addEventListener("input", (e) => {
+      document.getElementById("cfg-primaryColor").value = e.target.value;
+    });
+
+    document.getElementById("btn-add-question").addEventListener("click", () => {
+      currentConfig.suggestedQuestions.push({ label: "", prompt: "" });
+      renderQuestions(currentConfig.suggestedQuestions);
+    });
+
+    document.getElementById("btn-save-config").addEventListener("click", (e) => {
+      const btn = e.target;
+      const hex = document.getElementById("cfg-primaryColor").value.trim();
+      if (!/^#[0-9a-fA-F]{6}$/.test(hex)) {
+        setStatus("status-config", 'Màu không hợp lệ — cần đúng định dạng hex, ví dụ "#4f7a6b".', true);
+        return;
+      }
+      const config = {
+        botName: document.getElementById("cfg-botName").value.trim(),
+        botSubtitle: document.getElementById("cfg-botSubtitle").value.trim(),
+        greeting: document.getElementById("cfg-greeting").value,
+        logoUrl: document.getElementById("cfg-logoUrl").value.trim(),
+        primaryColor: hex,
+        suggestedQuestions: collectQuestionsFromForm(),
+        contactInfo: {
+          hotline: document.getElementById("cfg-hotline").value.trim(),
+          zalo: document.getElementById("cfg-zalo").value.trim(),
+          email: document.getElementById("cfg-email").value.trim(),
+          hours: document.getElementById("cfg-hours").value.trim(),
+        },
+        marqueeEnabled: document.getElementById("cfg-marqueeEnabled").checked,
+        marqueeText: document.getElementById("cfg-marqueeText").value.trim(),
+      };
+      btn.disabled = true;
+      google.script.run
+        .withSuccessHandler(() => {
+          btn.disabled = false;
+          currentConfig = config;
+          setStatus("status-config", "Đã lưu.", false);
+        })
+        .withFailureHandler((err) => {
+          btn.disabled = false;
+          setStatus("status-config", "Lỗi: " + err.message, true);
+        })
+        .adminSaveBotConfig(config);
+    });
+
+    document.getElementById("btn-save-prompt").addEventListener("click", (e) => {
+      const btn = e.target;
+      const text = document.getElementById("system-prompt").value;
+      btn.disabled = true;
+      google.script.run
+        .withSuccessHandler(() => {
+          btn.disabled = false;
+          setStatus("status-prompt", "Đã lưu.", false);
+        })
+        .withFailureHandler((err) => {
+          btn.disabled = false;
+          setStatus("status-prompt", "Lỗi: " + err.message, true);
+        })
+        .adminSaveSystemPrompt(text);
+    });
+
+    document.getElementById("btn-save-knowledge").addEventListener("click", (e) => {
+      const btn = e.target;
+      const text = document.getElementById("knowledge-base").value;
+      btn.disabled = true;
+      google.script.run
+        .withSuccessHandler(() => {
+          btn.disabled = false;
+          document.getElementById("knowledge-length").textContent = text.length.toLocaleString("vi-VN") + " ký tự";
+          setStatus("status-knowledge", "Đã lưu.", false);
+        })
+        .withFailureHandler((err) => {
+          btn.disabled = false;
+          setStatus("status-knowledge", "Lỗi: " + err.message, true);
+        })
+        .adminSaveKnowledgeBase(text);
+    });
+
+    loadData();
+  })();
+</script>

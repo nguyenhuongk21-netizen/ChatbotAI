@@ -2,9 +2,9 @@
  * PRANA GUIDE AI — Backend Google Apps Script
  * =============================================================================
  * SYSTEM_PROMPT nằm gọn trong MỘT hằng số duy nhất ngay bên dưới đây (yêu cầu
- * F6). Muốn đổi toàn bộ tính cách/quy tắc của bot, chỉ cần thay nguyên khối
- * chữ trong SYSTEM_PROMPT rồi Deploy > Manage deployments > sửa deployment cũ
- * (hoặc New deployment) — không cần sửa bất kỳ chỗ nào khác trong file này.
+ * F6) — đây là giá trị MẶC ĐỊNH/dự phòng. Trang Admin (Admin.html) cho phép
+ * ghi đè giá trị đang chạy thực tế mà KHÔNG cần sửa file này hay redeploy —
+ * xem getEffectiveSystemPrompt_() bên dưới để hiểu cơ chế 2 tầng này.
  *
  * Nội dung SYSTEM_PROMPT dưới đây = nguyên văn system prompt đang dùng trong
  * bản Netlify/Supabase trước đó, CỘNG THÊM mục "Giới hạn an toàn bắt buộc"
@@ -76,23 +76,71 @@ Nếu người dùng muốn nói chuyện với người thật, hoặc bot khô
 Nếu là tin nhắn đầu tiên của cuộc trò chuyện và người dùng chỉ chào hỏi xã giao, hãy giới thiệu ngắn gọn bản thân và các chủ đề bạn có thể hỗ trợ (yoga, thiền & hơi thở, giảm stress, dinh dưỡng, phục hồi năng lượng, phát triển bản thân).`;
 
 // =============================================================================
-// CẤU HÌNH KHÁC (không phải system prompt — có thể sửa tự do)
+// CẤU HÌNH BOT MẶC ĐỊNH (dùng khi chưa có bản ghi đè lưu qua trang Admin)
 // =============================================================================
-var BOT_NAME = 'Prana Guide AI';
+var DEFAULT_BOT_CONFIG = {
+  botName: 'Prana Guide AI',
+  botSubtitle: 'Yoga · Thiền · Sức khỏe Thân–Tâm–Trí',
+  logoUrl: '',
+  primaryColor: '#4f7a6b',
+  greeting:
+    'Xin chào! Mình là Prana Guide AI – trợ lý sức khỏe thân - tâm - trí của bạn. Hãy trò chuyện với mình nếu bạn cần:\n' +
+    '🧘 Hướng dẫn Yoga · 🌿 Thiền & Hơi thở · 😌 Giảm stress · 🍎 Dinh dưỡng lành mạnh · 🌞 Phục hồi năng lượng · 💖 Phát triển bản thân',
+  suggestedQuestions: [
+    { label: '🧘 Hướng dẫn Yoga', prompt: 'Bạn hướng dẫn cho mình về Yoga được không?' },
+    { label: '🌿 Thiền & Hơi thở', prompt: 'Bạn hướng dẫn mình một bài thiền hoặc bài tập thở để thư giãn được không?' },
+    { label: '😌 Giảm stress', prompt: 'Mình đang căng thẳng, bạn có thể giúp mình giảm stress không?' },
+    { label: '🍎 Dinh dưỡng lành mạnh', prompt: 'Bạn tư vấn giúp mình về dinh dưỡng lành mạnh cho người tập yoga được không?' },
+    { label: '🌞 Phục hồi năng lượng', prompt: 'Mình muốn phục hồi năng lượng, bạn có gợi ý gì không?' },
+    { label: '💖 Phát triển bản thân', prompt: 'Bạn có thể giúp mình phát triển bản thân, sống bình an hơn không?' },
+  ],
+  contactInfo: {
+    hotline: '0976188870',
+    zalo: '0976188870',
+    email: 'nguyenhuongk21@gmail.com',
+    hours: '8h–12h và 14h–21h',
+  },
+  marqueeEnabled: false,
+  marqueeText: '',
+};
+
 var GEMINI_MODEL = 'gemini-2.5-flash';
-var CONTACT_HOTLINE = '0976188870';
 var MAX_MESSAGES = 40; // tối đa số tin nhắn giữ lại trong 1 lượt gọi (chống lạm dụng)
 var MAX_MESSAGE_LENGTH = 4000; // tối đa ký tự mỗi tin nhắn
+var KNOWLEDGE_DRIVE_FILENAME = 'PranaGuide_KnowledgeBase_Override.txt';
 
 // =============================================================================
 // ĐIỂM VÀO WEB APP
 // =============================================================================
 
-/** Test nhanh: mở thẳng URL Web App bằng trình duyệt sẽ thấy JSON này. */
+/**
+ * 3 công dụng tùy theo tham số:
+ *  - ?page=admin&key=<ADMIN_SECRET>  → phục vụ trang quản trị (Admin.html)
+ *  - ?action=config                  → trả JSON cấu hình công khai cho chat.js
+ *  - (không tham số)                 → JSON trạng thái, dùng để test nhanh
+ */
 function doGet(e) {
+  var params = (e && e.parameter) || {};
+
+  if (params.page === 'admin') {
+    var secret = PropertiesService.getScriptProperties().getProperty('ADMIN_SECRET');
+    if (!secret || params.key !== secret) {
+      // Không tiết lộ là có trang admin — trả về như 1 route không tồn tại.
+      return jsonResponse_({ error: 'Not found' });
+    }
+    return HtmlService.createTemplateFromFile('Admin')
+      .evaluate()
+      .setTitle('Prana Guide AI — Admin')
+      .addMetaTag('viewport', 'width=device-width, initial-scale=1');
+  }
+
+  if (params.action === 'config') {
+    return jsonResponse_(getPublicBotConfig_());
+  }
+
   return jsonResponse_({
     status: 'ok',
-    bot: BOT_NAME,
+    bot: DEFAULT_BOT_CONFIG.botName,
     message: 'Prana Guide AI Apps Script backend đang chạy. Gửi POST tới URL này với { "messages": [...] } để chat.',
   });
 }
@@ -120,13 +168,16 @@ function doPost(e) {
     return jsonResponse_({ reply: reply });
   } catch (err) {
     Logger.log('doPost lỗi: ' + err);
+    var hotline = getPublicBotConfig_().contactInfo.zalo;
     return jsonResponse_({
-      error:
-        'Xin lỗi, mình đang gặp sự cố kỹ thuật. Bạn vui lòng liên hệ hotline/Zalo ' +
-        CONTACT_HOTLINE +
-        ' để được hỗ trợ nhé.',
+      error: 'Xin lỗi, mình đang gặp sự cố kỹ thuật. Bạn vui lòng liên hệ hotline/Zalo ' + hotline + ' để được hỗ trợ nhé.',
     });
   }
+}
+
+/** Cho phép Admin.html include AdminJS.html (mẫu HtmlService chuẩn của Google). */
+function include_(filename) {
+  return HtmlService.createHtmlOutputFromFile(filename).getContent();
 }
 
 // =============================================================================
@@ -140,12 +191,106 @@ function khoiTao() {
       'CHƯA đặt GEMINI_API_KEY trong Script Properties. Vào biểu tượng bánh răng (Project Settings) > Script Properties > Add script property, đặt tên "GEMINI_API_KEY" và dán key Gemini thật vào, rồi chạy lại khoiTao().',
     );
   }
+  if (!props.getProperty('ADMIN_SECRET')) {
+    Logger.log(
+      '⚠️ Chưa đặt ADMIN_SECRET trong Script Properties — trang Admin sẽ không mở được. ' +
+        'Vào Project Settings > Script Properties, thêm ADMIN_SECRET = một mật khẩu bạn tự chọn.',
+    );
+  }
   Logger.log('Đã tìm thấy GEMINI_API_KEY. Đang gọi thử Gemini để kiểm tra kết nối...');
   var reply = callGemini_([
     { role: 'user', content: 'Xin chào, bạn hãy trả lời đúng 1 câu ngắn xác nhận bạn đã sẵn sàng hoạt động.' },
   ]);
   Logger.log('✅ KHỞI TẠO THÀNH CÔNG! Gemini phản hồi: ' + reply);
-  Logger.log('Bước tiếp theo: Deploy > New deployment > Web app để lấy URL, dán vào PROXY_URL trong config.js.');
+  Logger.log('Bước tiếp theo: Deploy > New deployment > Web app để lấy URL, dán vào PROXY_URL trong chat.js.');
+}
+
+// =============================================================================
+// CẤU HÌNH ĐỘNG — đọc/ghi qua Script Properties (System Prompt + Bot Config)
+// và Google Drive (Kho kiến thức, vì vượt quá giới hạn 9KB/property).
+// Cơ chế 2 tầng: có bản ghi đè (Admin đã lưu) → dùng bản ghi đè; chưa có →
+// dùng hằng số mặc định trong Code.gs/KhoKienThuc.gs. Ghi đè có hiệu lực NGAY,
+// không cần Deploy lại.
+// =============================================================================
+
+function getEffectiveSystemPrompt_() {
+  var override = PropertiesService.getScriptProperties().getProperty('SYSTEM_PROMPT_OVERRIDE');
+  return override || SYSTEM_PROMPT;
+}
+
+function getEffectiveKnowledgeBase_() {
+  var fileId = PropertiesService.getScriptProperties().getProperty('KNOWLEDGE_FILE_ID');
+  if (fileId) {
+    try {
+      return DriveApp.getFileById(fileId).getBlob().getDataAsString('UTF-8');
+    } catch (err) {
+      Logger.log('Không đọc được file kiến thức override, dùng mặc định: ' + err);
+    }
+  }
+  return typeof KNOWLEDGE_BASE !== 'undefined' ? KNOWLEDGE_BASE : '';
+}
+
+function getPublicBotConfig_() {
+  var override = PropertiesService.getScriptProperties().getProperty('BOT_CONFIG_OVERRIDE');
+  if (override) {
+    try {
+      return JSON.parse(override);
+    } catch (err) {
+      Logger.log('BOT_CONFIG_OVERRIDE lỗi JSON, dùng mặc định: ' + err);
+    }
+  }
+  return DEFAULT_BOT_CONFIG;
+}
+
+// =============================================================================
+// HÀM GỌI TỪ Admin.html / AdminJS.html QUA google.script.run
+// =============================================================================
+
+/** Trả toàn bộ dữ liệu Admin cần để hiển thị form (gọi 1 lần khi tải trang). */
+function adminGetData() {
+  return {
+    systemPrompt: getEffectiveSystemPrompt_(),
+    knowledgeBase: getEffectiveKnowledgeBase_(),
+    botConfig: getPublicBotConfig_(),
+  };
+}
+
+function adminSaveSystemPrompt(text) {
+  if (typeof text !== 'string' || !text.trim()) {
+    throw new Error('System Prompt không được để trống.');
+  }
+  PropertiesService.getScriptProperties().setProperty('SYSTEM_PROMPT_OVERRIDE', text);
+  return { ok: true };
+}
+
+function adminSaveKnowledgeBase(text) {
+  if (typeof text !== 'string') {
+    throw new Error('Nội dung kiến thức không hợp lệ.');
+  }
+  var props = PropertiesService.getScriptProperties();
+  var fileId = props.getProperty('KNOWLEDGE_FILE_ID');
+  var file = null;
+  if (fileId) {
+    try {
+      file = DriveApp.getFileById(fileId);
+      file.setContent(text);
+    } catch (err) {
+      file = null; // file cũ bị xóa/mất quyền — tạo file mới bên dưới
+    }
+  }
+  if (!file) {
+    file = DriveApp.createFile(KNOWLEDGE_DRIVE_FILENAME, text, MimeType.PLAIN_TEXT);
+    props.setProperty('KNOWLEDGE_FILE_ID', file.getId());
+  }
+  return { ok: true };
+}
+
+function adminSaveBotConfig(configObj) {
+  if (!configObj || typeof configObj !== 'object') {
+    throw new Error('Cấu hình không hợp lệ.');
+  }
+  PropertiesService.getScriptProperties().setProperty('BOT_CONFIG_OVERRIDE', JSON.stringify(configObj));
+  return { ok: true };
 }
 
 // =============================================================================
@@ -176,10 +321,10 @@ function callGemini_(messages) {
     throw new Error('Thiếu GEMINI_API_KEY trong Script Properties.');
   }
 
-  var fullSystemInstruction =
-    typeof KNOWLEDGE_BASE !== 'undefined' && KNOWLEDGE_BASE
-      ? SYSTEM_PROMPT + '\n\n## KIẾN THỨC THAM KHẢO\n' + KNOWLEDGE_BASE
-      : SYSTEM_PROMPT;
+  var knowledge = getEffectiveKnowledgeBase_();
+  var fullSystemInstruction = knowledge
+    ? getEffectiveSystemPrompt_() + '\n\n## KIẾN THỨC THAM KHẢO\n' + knowledge
+    : getEffectiveSystemPrompt_();
 
   var contents = messages.map(function (m) {
     return {
