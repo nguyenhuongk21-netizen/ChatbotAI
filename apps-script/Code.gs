@@ -336,6 +336,12 @@ function callGemini_(messages) {
   var payload = {
     contents: contents,
     systemInstruction: { parts: [{ text: fullSystemInstruction }] },
+    // Tắt chế độ "suy luận sâu" (thinking) — bot chăm sóc khách hàng/FAQ không cần suy
+    // luận nhiều bước, tắt để giảm độ trễ (model có thinking mặc định có thể mất tới
+    // 30–200+ giây/câu trả lời, không chấp nhận được cho chat trực tiếp).
+    generationConfig: {
+      thinkingConfig: { thinkingBudget: 0 },
+    },
   };
 
   var url =
