@@ -5,48 +5,50 @@
  * Yêu cầu: marked.js + DOMPurify phải được nạp trước (render markdown an toàn).
  *
  * Không có streaming (Apps Script không hỗ trợ) — trả lời hiện ra một lần sau khi
- * nhận đủ phản hồi từ server. Không có nhiều cấp quyền admin qua web công khai —
- * sửa system prompt/kiến thức qua trang Admin (Apps Script) hoặc mở trực tiếp
- * Code.gs/KhoKienThuc.gs trong Apps Script Editor.
+ * nhận đủ phản hồi từ server. Cấu hình hiển thị (tên bot, lời chào, câu hỏi gợi ý,
+ * liên hệ, màu, logo, marquee) được TẢI TỪ Apps Script (?action=config) — sửa qua
+ * trang Admin (Apps Script), KHÔNG sửa cứng trong file này nữa.
  */
 
 // =============================================================================
-// CẤU HÌNH — sửa trực tiếp các giá trị dưới đây (không cần build gì cả).
-//
 // ⚠️ VIỆC BẠN CẦN LÀM: sau khi deploy Apps Script thành Web App (xem README),
 // dán URL đó vào PROXY_URL bên dưới. Thiếu bước này thì chat KHÔNG hoạt động.
 // =============================================================================
 const PROXY_URL = "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE";
 
-const BOT_CONFIG = {
+// Cấu hình dự phòng — CHỈ dùng khi không gọi được Apps Script (mất mạng, PROXY_URL
+// sai...), để widget vẫn hiển thị được thay vì trắng trang. Cấu hình THẬT lấy từ
+// Apps Script (Script Properties, sửa qua trang Admin) mỗi khi trang tải lên.
+const FALLBACK_CONFIG = {
   botName: "Prana Guide AI",
   botSubtitle: "Yoga · Thiền · Sức khỏe Thân–Tâm–Trí",
-  logoUrl: "", // để trống dùng icon 🧘 mặc định — dán URL ảnh logo nếu có
+  logoUrl: "",
   primaryColor: "#4f7a6b",
-
-  greeting:
-    "Xin chào! Mình là Prana Guide AI – trợ lý sức khỏe thân - tâm - trí của bạn. Hãy trò chuyện với mình nếu bạn cần:\n" +
-    "🧘 Hướng dẫn Yoga · 🌿 Thiền & Hơi thở · 😌 Giảm stress · 🍎 Dinh dưỡng lành mạnh · 🌞 Phục hồi năng lượng · 💖 Phát triển bản thân",
-
-  suggestedQuestions: [
-    { label: "🧘 Hướng dẫn Yoga", prompt: "Bạn hướng dẫn cho mình về Yoga được không?" },
-    { label: "🌿 Thiền & Hơi thở", prompt: "Bạn hướng dẫn mình một bài thiền hoặc bài tập thở để thư giãn được không?" },
-    { label: "😌 Giảm stress", prompt: "Mình đang căng thẳng, bạn có thể giúp mình giảm stress không?" },
-    { label: "🍎 Dinh dưỡng lành mạnh", prompt: "Bạn tư vấn giúp mình về dinh dưỡng lành mạnh cho người tập yoga được không?" },
-    { label: "🌞 Phục hồi năng lượng", prompt: "Mình muốn phục hồi năng lượng, bạn có gợi ý gì không?" },
-    { label: "💖 Phát triển bản thân", prompt: "Bạn có thể giúp mình phát triển bản thân, sống bình an hơn không?" },
-  ],
-
+  greeting: "Xin chào! Mình là Prana Guide AI. Hiện mình chưa kết nối được với máy chủ, vui lòng thử lại sau ít phút.",
+  suggestedQuestions: [],
   contactInfo: {
     hotline: "0976188870",
     zalo: "0976188870",
     email: "nguyenhuongk21@gmail.com",
     hours: "8h–12h và 14h–21h",
   },
-
   marqueeEnabled: false,
   marqueeText: "",
 };
+
+async function fetchBotConfig() {
+  try {
+    const url = PROXY_URL + (PROXY_URL.indexOf("?") >= 0 ? "&" : "?") + "action=config";
+    const res = await fetch(url);
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const data = await res.json();
+    if (data.error) throw new Error(data.error);
+    return data;
+  } catch (err) {
+    console.warn("Không tải được cấu hình từ Apps Script, dùng cấu hình dự phòng:", err);
+    return FALLBACK_CONFIG;
+  }
+}
 
 (function () {
   "use strict";
@@ -142,8 +144,7 @@ const BOT_CONFIG = {
 
   // ---------- Widget ----------
 
-  function createChatWidget(rootEl) {
-    const cfg = BOT_CONFIG;
+  function createChatWidget(rootEl, cfg) {
     let open = false;
     let sending = false;
     let messages = [{ id: "greeting", role: "assistant", content: cfg.greeting }];
@@ -377,8 +378,10 @@ const BOT_CONFIG = {
   }
 
   // ---------- Khởi động ----------
-  document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("DOMContentLoaded", async () => {
     const root = document.getElementById("chat-widget-root");
-    if (root) createChatWidget(root);
+    if (!root) return;
+    const cfg = await fetchBotConfig();
+    createChatWidget(root, cfg);
   });
 })();
