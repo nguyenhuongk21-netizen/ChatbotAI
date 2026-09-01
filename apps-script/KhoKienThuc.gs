@@ -11,6 +11,7 @@ var KNOWLEDGE_BASE = `
 ## PHẦN I: TRỊ LIỆU CỔ VAI GÁY VÀ LƯNG
 
 ## 1. Ngồi xếp bằng thiền
+![Tư thế ngồi thiền](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/ngoi-xep-bang-thien.jpg)
 Tác dụng: 
 Làm cho tâm trí trở nên cân bằng và thần kinh được hồi phục, vui vẻ, cảm nhận được hạnh phúc và giúp cho trí tuệ trở nên thông minh và phát triển. Thiền trước khi tập yoga giúp người tập tạm thời buông bỏ mọi việc khác để tập trung chú ý vào tập các tư thế yoga
 Yêu cầu: 
@@ -33,10 +34,13 @@ Tác dụng:
 Chữa thoái hóa đốt sống cổ, giúp kích thích tuần hoàn máu, cải thiện độ linh hoạt sự dẻo dai và chức năng của cột sống cổ
 Thư giãn xương khớp và các dây thần kinh xung quanh cổ đồng thời giảm đau nhức
 Cách thực hiện:a. Đẩy cằm lên  cằm chạm ngực
+![Khởi động khớp cổ](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/khoi-dong-khop-co-1.jpg)
+![Khởi động khớp cổ](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/khoi-dong-khop-co-2.jpg)
 B1: Ngồi ở tư thế kim cương
 B2: Đan 2 tay đặt dưới cằm, hít vào từ từ đẩy vươn cằm hết cỡ lên kéo căng vùng cổ, hai cùi trỏ chạm vào nhau đồng thời đẩy xương ức về phía trước, lưng thẳng
 B3: Từ từ thở ra 2 tay ôm lấy đầu, cúi đầu thu 2 cùi trỏ gần nhau, cằm đưa vào hốc cổ, lưng cong hình chữ C, mắt nhìn vào rốn
 b. Nghiêng cổ sang 2 bên
+![Nghiêng cổ sang 2 bên](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/nghieng-co-sang-2-ben.jpg)
 B1: Ngồi theo tư thế bán già hoặc kim cương
 B2: Hít vào cổ thẳng thở ra nghiêng cổ sang phải, lấy tay phải nhẹ nhàng kéo cổ sang phải, tay trái đặt nhẹ xuống sàn kéo nhẹ vai trái xuống
 Nghiêng đúng theo mặt phẳng nghiêng 
@@ -45,6 +49,8 @@ Yêu cầu:
 Lưng thẳng, người không đung đưa khi vận động khớp cổ theo 3 mặt. Khi nghiêng kéo căng vùng cổ và vai
 
 ### 2.2 Khởi động vai
+![Khởi động vai](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/khoi-dong-vai-1.jpg)
+![Khởi động vai](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/khoi-dong-vai-2.jpg)
 Hai tay đặt lên vai xoay tròn
 Cách thực hiện:
 B1: Ngồi theo tư thế kim cương hoặc bán già, chụm các đầu ngón tay đặt lên 2 vai, chạm 2 cùi chỏ vào nhau
@@ -54,6 +60,7 @@ Yêu cầu:
 Lưng thẳng đầu giữ nguyên chính giữa
 
 ### 2.3 Khởi động khớp háng (Tư thế con bướm) 
+![Tư thế cánh bướm](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/tu-the-canh-buom.jpg)
 B1: Ngồi gập đầu gối, kéo gót chân về gần xương chậu. 2 lòng bàn chân ấn sát vào nhau, đầu gối thả sang 2 bên.
 B2: Nâng hạ 2 chân dập dình như cánh bướm
 Yêu cầu: 
@@ -62,16 +69,21 @@ Không nên thực hiện tư thế này nếu bạn bị chấn thương đầu
 Nếu bạn bị đau thần kinh tọa, bạn có thể ngồi trên 1 chiếc gối
 
 ### 2.4 Chân cổ tay kéo giãn
+![Kéo giãn cổ chân và cổ tay](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/keo-gian-co-chan-co-tay-1.jpg)
+![Kéo giãn cổ chân và cổ tay](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/keo-gian-co-chan-co-tay-2.jpg)
 B1: Hít vào xòe rộng các ngón tay hết cỡ đồng thời ngửa bàn tay hết cỡ về phía người. Kéo giãn hết cỡ bàn chân về phía trước
 B2: Thở ra nắm 2 bàn tay gập cổ tay hết cỡ, kéo bàn chân hết cỡ về phía người   
 
 ### 2.5 Khởi động cổ chân và cổ tay
+![Khởi động cổ chân và cổ tay](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/khoi-dong-co-chan-co-tay.jpg)
 B1: Ngồi lưng thẳng duỗi 2 chân thẳng 2 tay chống phía sau thả lỏng vai.
 B2: Xoay tròn cổ chân, kéo giãn cổ chân tối đa, xoay chậm cố gắng để bàn chân gần mặt thảm trong quá trình xoay
 Duy trì hơi thở trong quá trình khởi động
 B3: Xoay ngược lại 
 
 ### 2.6 Khởi động eo
+![Khởi động eo](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/khoi-dong-eo-1.jpg)
+![Khởi động eo](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/khoi-dong-eo-2.jpg)
 B1: Ngồi lưng thẳng duỗi 2 chân thẳng, đan 2 bàn tay vào nhau
 B2: Hít vào nhoài người hết cỡ về phía trước di chuyển từ trái sang phải vẽ hình elip
 B3: Thở ra từ từ xẹp bụng ngả hết cỡ về sau 
@@ -80,6 +92,7 @@ Yêu cầu:
 Lưng thẳng trong quá trình di chuyển, 2 cánh tay thả lỏng, tập trung vào phần eo, xoay di chuyển phần eo
 
 ## 3. Vặn người
+![Tư thế vặn người](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/tu-the-van-nguoi.jpg)
 Tác dụng: 
 Cải thiện hoạt động của cột sống, tủy sống, giảm thiểu tình trạng đau lưng, đồng thời giúp nới lỏng phần hông
 Cải thiện chức năng của hệ tiêu hóa và thải độc toàn bộ các cơ quan nội tạng, ngăn ngừa táo bón và các bệnh về đường tiêu hóa khác
@@ -96,6 +109,7 @@ Không vặn quá nhiều ở phần cổ
 Giữ cố định phần xương chậu và xương cụt để tránh gây tổn thương
 
 ## 4. Nghiêng lườn sang 2 bên
+![Nghiêng lườn sang 2 bên](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/nghieng-luon-sang-2-ben.png)
 Tác dụng:
 Làm nóng cơ và đốt mỡ vùng cơ liên sườn, đốt mỡ vùng bắp tay
 Giúp chữa trị táo bón, vô sinh, đau thắt lưng, loãng xương, đau thần kinh tọa và những triệu chứng kinh nguyệt khó chịu
@@ -113,6 +127,8 @@ Huyết áp cao hoặc huyết áp thấp
 Mất ngủ
 
 ## 5. Đầu kề gối từng chân
+![Đầu kề gối từng chân](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/dau-ke-goi-1.jpg)
+![Đầu kề gối từng chân](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/dau-ke-goi-2.jpg)
 Tác dụng:
 Chữa chứng đau mỏi lưng do ngồi nhiều.
 Tăng lưu thông máu lên não nhằm cải thiện sự tập trung, tăng hiệu suất công việc
@@ -127,6 +143,8 @@ Lưng thẳng, thắt lưng được kéo giãn
 Đảm bảo 2 vai, 2 cánh tay, đầu và cổ đều được thư giãn
 
 ## 6. Xoay người sang 2 bên mở vai
+![Xoay người sang 2 bên mở vai](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/xoay-nguoi-mo-vai-1.jpg)
+![Xoay người sang 2 bên mở vai](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/xoay-nguoi-mo-vai-2.jpg)
 Tác dụng: 
 Mở vai và mở ngực, cải thiện chức năng tiêu hoá và thải độc
 Giải toả căng thẳng
@@ -140,6 +158,8 @@ Yêu cầu:
 Lưng thẳng, cảm nhận được ngực phải được căng giãn
 
 ## 7. Cúi gập người về phía trước biến thể 
+![Cúi gập người về phía trước biến thể](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/cui-gap-nguoi-bien-the-1.jpg)
+![Cúi gập người về phía trước biến thể](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/cui-gap-nguoi-bien-the-2.jpg)
 Tác dụng: 
 Mở ngực, mở vai, kéo giãn cột sống
 Giảm cơn đau dạ dày, đau bụng
@@ -153,6 +173,7 @@ Khi cúi xuống 2 tay đan vào nhau cao lên, lưng thẳng ngực mở
 Nếu chưa tốt dùng gạch đặt ở giữa 2 chân trên đầu gối để hạ đầu
 
 ## 8. Kim cương
+![Tư thế kim cương](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/tu-the-kim-cuong.jpg)
 Tác dụng:
 Tư thế này tăng cường sức mạnh cho các cơ khác nhau liên quan đến đầu gối
 Giảm các vấn đề về viêm loét dạ dày, làm giảm đau dây thần kinh tọa. Chữa bệnh khó tiêu hóa, thúc đẩy quá trình lưu thông máu.
@@ -166,6 +187,8 @@ B3: Hai ngón chân cái chạm vào nhau, hai bàn tay đặt nhẹ nhàng trê
 B4: Hít thở nhẹ nhàng
 
 ## 9. Kim cương hai cánh tay kẹp mang tai hạ người
+![Kim cương biến thể](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/kim-cuong-bien-the-1.jpg)
+![Kim cương biến thể](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/kim-cuong-bien-the-2.jpg)
 Tác dụng:
 Khỏe cơ lưng, cơ bụng, cơ chân, bắp chân và cơ đùi. Giúp giảm đau thắt lưng cũng như đau lưng
 Khỏe thận, cung cấp máu và giúp cơ thể chống lại bệnh tật bằng cách kích thích hệ thống miễn dịch
