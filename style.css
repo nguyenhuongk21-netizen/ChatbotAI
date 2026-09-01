@@ -668,6 +668,15 @@ body {
     padding-bottom: calc(12px + env(safe-area-inset-bottom));
   }
 
+  /*
+   * iOS Safari tự động phóng to (zoom) cả trang khi chạm vào input có font-size < 16px,
+   * khiến các phần tử bên cạnh (nút Gửi) bị đẩy ra ngoài vùng nhìn thấy. Đặt 16px để
+   * chặn hành vi tự zoom này.
+   */
+  .chat-input {
+    font-size: 16px;
+  }
+
   .chat-fab {
     right: calc(16px + env(safe-area-inset-right));
     bottom: calc(16px + env(safe-area-inset-bottom));
