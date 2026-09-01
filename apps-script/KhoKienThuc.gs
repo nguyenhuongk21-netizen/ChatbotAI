@@ -250,6 +250,7 @@ B5: Giữ tư thế này trong vòng 30 giây.
 Đừng giãn cơ quá mức. Chỉ thực hiện những bước mà bạn thấy thoải mái. Theo thời gian, cơ thể bạn sẽ trở nên linh hoạt hơn
 
 ## 14. Em bé
+![Tư thế Em bé](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/em-be.jpg)
 Tư thế Em Bé (hay Balasana) được đặt theo tiếng Phạn Bala có nghĩa là “Em Bé”, và Asana có nghĩa là tư thế. Với trọng lượng cơ thể dồn hết lên sàn, việc gập người về phía trước đầy thư thái của tư thế Em Bé có thể thư giãn sâu, và là một tư thế nghỉ ngơi tốt đối với nhiều người. Nó giúp cơ lưng được kéo dãn sâu nhưng lại vô cùng nhẹ nhàng, cả cơ thể và tâm trí đầu được thư giãn
 Tác dụng:
 Kích thích cơ quan sinh sản, làm giảm các triệu chứng của kinh nguyệt và thời kỳ tiền mãn kinh.
@@ -272,6 +273,7 @@ Lưu ý nếu bạn đang mang  hạn chế động tác hoặc bạn có thể
 Không thực hiện khi bạn là người cao huyết áp,  chấn thương vai hoặc tiêu chảy.
 
 ## 15. Chuyển từ em bé lên rắn hổ mang sang 5 lần
+![Chuyển từ Em bé sang Rắn hổ mang](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/em-be-len-ran-ho-mang.jpg)
 Tác dụng: 
 tăng cường cột sống, căng ngực, phổi, vai, bụng, kích thích các cơ quan bụng, giảm bớt căng thẳng và mệt mỏi, kích thích tim và phổi, làm dịu đau thần kinh tọa, điều trị cho bệnh hen suyễn
 Cách thực hiện:
@@ -367,6 +369,7 @@ Siết chặt các cơ vùng core trong suốt quá trình vận động
 Nếu bạn không thể nâng hông lên đúng vị trí được yêu cầu, hãy cố gắng nâng hông lên vài centimet – đủ để tác động lên các cơ
 
 ## 22. Ống bễ
+![Tư thế Ống bễ](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/ong-be.jpg)
 Tác dụng:
 Giảm khí trong dạ dày, làm giảm các chứng táo bón, khó tiêu, đầy bụng, no hơi và ợ chua
 Giúp xoa bóp các cơ quan sinh sản và cơ xương chậu. Điều chỉnh rối loạn kinh nguyệt
@@ -387,6 +390,7 @@ Không nên thực hành tư thế này nếu bạn đang hồi phục sau phẫ
 Phụ nữ mang thai, người thoát vị đĩa đệm không nên tập tư thế này
 
 ## 23. Đại bàng đứng 
+![Tư thế Đại bàng đứng](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/dai-bang-dung.jpg)
 Tư thế chim đại bàng (Eagle Pose) đặt theo tên tiếng Phạn là Garudasana tượng trưng cho hình ảnh những chú đại bàng uy mãnh, đầy quyền lực. Tư thế này đóng vai trò quan trọng trong việc cải thiện sức chịu đựng, sự cân bằng của cơ thể
 Tác dụng: 
 Tư thế này giúp căng vùng đùi, hông, lưng trên và vai
@@ -588,6 +592,7 @@ Nếu bạn bị chấn thương ở lưng , hãy tập động tác gập lư
 Nếu bạn bị chứng đau nửa đầu không nên thực hiện động tác
 
 ## 35. Tư thế con Cá
+![Tư thế con Cá](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/tu-the-con-ca.jpg)
 Tác dụng: 
 Tăng cường dây chằng và lưng dưới, mở rộng hông và lồng ngực, mở vai 
 Cách thực hiện:
@@ -600,6 +605,7 @@ B5: Từ từ hạ đỉnh đầu xuống sàn, giữ ở tư thế này hít th
 Lực dồn vào 2 cùi trỏ 90%, 10% lên đỉnh đầu
 
 ## 36. Căng duỗi cơ hình thang
+![Căng duỗi cơ hình thang](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/cang-duoi-co-hinh-thang.jpg)
 Tác dụng: 
 Giúp bạn giảm đau nhanh chóng khi có triệu chứng đau lan từ vai lên cổ. 
 Cách thực hiện:
@@ -609,6 +615,7 @@ B5: Giữ nguyên ở tư thế này hít thở đều, đổi bên
 Lưu ý:  Lưng thẳng, hạ vai xuống
 
 ## 37. Đẩy cá heo
+![Tư thế Đẩy cá heo](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/day-ca-heo.jpg)
 Tác dụng: 
 Tăng cường sức mạnh đôi vai đồng thời làm mềm dẻo, linh hoạt bờ vai của mình nhanh chóng. 
 Đánh tan mỡ vùng bụng 1 cách nhanh chóng, hiệu quả và hỗ trợ cơ bụng săn chắc dễ dàng.
@@ -763,6 +770,7 @@ Tạm thời không thực hiện tư thế này nếu bạn đang bị huyết 
 Nếu bạn là người mới tập, hãy từ từ nhìn xuống gót chân và điều chỉnh tư thế dần dần
 
 ## 6. Tư thế tam giác vặn
+![Tư thế tam giác vặn](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/tam-giac-van.jpg)
 Tác dụng:
 Tăng tính linh hoạt và khả năng vận động của cơ thể
 Cải thiện khả năng thăng bằng
@@ -792,6 +800,7 @@ Bị huyết áp thấp
 Bạn đang bị mất ngủ, đau đầu hoặc đau nửa đầu hoặc đau dạ dày
 
 ## 7. Tư thế trăng lưỡi liềm cao
+![Tư thế trăng lưỡi liềm cao](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/trang-luoi-liem-cao.jpg)
 Tác dụng: 
 Tư thế yoga này giúp làm mạnh thêm và tăng độ dẻo của hai bên bắp đùi, chân và mắt cá
 Cải thiện khả năng giữ thăng bằng
@@ -1011,6 +1020,7 @@ Khi mới thực hành, bạn có thể cảm thấy đau đùi. Hãy thật ch�
 Khi bạn đã thực hiện tốt hơn, có thể nâng cao tư thế bằng cách nắm cạnh ngoài của bàn chân trái bằng tay phải. Việc này sẽ khó khăn hơn nhưng sẽ làm tăng khả năng của bạn, giúp bạn cân bằng tốt hơn
 
 ## 18. Tư thế góc nghiêng duỗi
+![Tư thế góc nghiêng duỗi](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/goc-nghieng-duoi.jpg)
 Tác dụng: 
 Kích thích các cơ quan nội tạng
 Tăng sức chịu đựng cho cơ thể
@@ -1128,6 +1138,8 @@ Nếu bạn là người mới tập, đây chắc chắn sẽ là một thách 
 Để thực hiện tư thế nâng cao hơn, bạn có thể từ từ nâng gót chân mình lên và giữ tư thế càng lâu càng tốt
 
 ## 24. Tư thế cái ghế vặn mình
+![Tư thế cái ghế vặn mình - bước 1](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/cai-ghe-van-minh-1.jpg)
+![Tư thế cái ghế vặn mình - bước 2](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/cai-ghe-van-minh-2.jpg)
 Tác dụng: 
 Giúp tăng tính linh hoạt của lưng, kéo dài lưng dưới, tăng cường sức mạnh cho chân và mang lại chiều dài cho cột sống
 Tăng cường sức mạnh cho mắt cá chân, đùi khi bạn uốn cong hông – tư thế quay người sang một bên
@@ -1147,6 +1159,8 @@ Giữ đầu gối sát vào nhau khi khuỵu đầu gối để có thể giúp
 Không nên thực hiện tư thế này, nếu bạn gặp các vấn đề sau đây: Chấn thương cổ, chấn thương lưng, huyết áp thấp hoặc chóng mặt, đang mang thai
 
 ## 25. Tư thế chó duỗi mình ba chân
+![Tư thế chó duỗi mình ba chân - bước 1](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/cho-duoi-minh-ba-chan-1.jpg)
+![Tư thế chó duỗi mình ba chân - bước 2](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/cho-duoi-minh-ba-chan-2.jpg)
 Tác dụng: 
 Kéo căng toàn thân
 Xây dựng sức mạnh
