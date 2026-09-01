@@ -2,7 +2,16 @@
 * {
   box-sizing: border-box;
 }
+
+/*
+ * Chặn cuộn ngang toàn trang — cần thiết cho chế độ standalone trên iOS (mở từ icon
+ * Màn hình chính): chỉ cần lệch 1-2px do làm tròn đơn vị vw/safe-area-inset cũng đủ
+ * để iOS cho phép vuốt ngang lộ khoảng trống, dù không phần tử nào thực sự tràn nhiều.
+ */
+html,
 body {
+  overflow-x: hidden;
+  width: 100%;
   margin: 0;
 }
 
