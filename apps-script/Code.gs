@@ -81,7 +81,7 @@ Nếu là tin nhắn đầu tiên của cuộc trò chuyện và người dùng 
 var DEFAULT_BOT_CONFIG = {
   botName: 'Prana Guide AI',
   botSubtitle: 'Yoga · Thiền · Sức khỏe Thân–Tâm–Trí',
-  logoUrl: '',
+  logoUrl: 'https://nguyenhuongk21-netizen.github.io/ChatbotAI/logo.png',
   primaryColor: '#4f7a6b',
   greeting:
     'Xin chào! Mình là Prana Guide AI – trợ lý sức khỏe thân - tâm - trí của bạn. Hãy trò chuyện với mình nếu bạn cần:\n' +
