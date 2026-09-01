@@ -533,6 +533,7 @@ body {
 
 .chat-input {
   flex: 1;
+  min-width: 0;
   border: 1px solid #dcd6c7;
   border-radius: 999px;
   padding: 10px 14px;
@@ -545,6 +546,7 @@ body {
 }
 
 .chat-send {
+  flex-shrink: 0;
   border: none;
   background: var(--brand-color-dark, #4f7a6b);
   color: #fff;
