@@ -146,7 +146,18 @@ async function fetchBotConfig() {
 
   // ---------- Nhập bằng giọng nói (Web Speech API) ----------
 
-  const SpeechRecognitionCtor = window.SpeechRecognition || window.webkitSpeechRecognition || null;
+  /**
+   * iOS/iPadOS Safari CÓ expose window.webkitSpeechRecognition nhưng KHÔNG cấp quyền
+   * hoạt động thực sự cho web (giới hạn từ Apple/WebKit, không phải lỗi phía mình) —
+   * bấm vào sẽ luôn báo lỗi xin quyền micro dù đã cho phép. Trên iOS, bàn phím hệ thống
+   * đã có sẵn nút micro đọc chính tả (dictation) hoạt động ổn định hơn nhiều, nên chủ
+   * động ẩn nút mic riêng của mình trên iOS để tránh gây nhầm lẫn.
+   */
+  function isIOS() {
+    return /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  }
+
+  const SpeechRecognitionCtor = isIOS() ? null : window.SpeechRecognition || window.webkitSpeechRecognition || null;
 
   function createChatWidget(rootEl, cfg) {
     let open = false;
