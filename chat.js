@@ -271,7 +271,7 @@ async function fetchBotConfig() {
         </div>
         <div class="chat-header-actions">
           <button type="button" class="contact-btn">📞 Gặp tư vấn viên</button>
-          <button type="button" class="chat-minimize" aria-label="Thu nhỏ">—</button>
+          <button type="button" class="chat-minimize" aria-label="Quay lại">←</button>
         </div>`;
       header.querySelector(".chat-header-name").textContent = cfg.botName;
       header.querySelector(".chat-header-subtitle").textContent = cfg.botSubtitle;
