@@ -144,10 +144,72 @@ async function fetchBotConfig() {
 
   // ---------- Widget ----------
 
+  // ---------- Nhập bằng giọng nói (Web Speech API) ----------
+
+  const SpeechRecognitionCtor = window.SpeechRecognition || window.webkitSpeechRecognition || null;
+
   function createChatWidget(rootEl, cfg) {
     let open = false;
     let sending = false;
+    let listening = false;
+    let recognition = null;
     let messages = [{ id: "greeting", role: "assistant", content: cfg.greeting }];
+
+    function stopVoiceInput() {
+      if (recognition) recognition.stop();
+    }
+
+    function toggleVoiceInput(input, micBtn) {
+      if (!SpeechRecognitionCtor) return;
+
+      if (listening) {
+        stopVoiceInput();
+        return;
+      }
+
+      let finalTranscript = "";
+      recognition = new SpeechRecognitionCtor();
+      recognition.lang = "vi-VN";
+      recognition.interimResults = true;
+      recognition.continuous = false;
+      recognition.maxAlternatives = 1;
+
+      recognition.onstart = () => {
+        listening = true;
+        micBtn.classList.add("chat-mic-active");
+        micBtn.setAttribute("aria-label", "Dừng ghi âm");
+        input.placeholder = "Đang nghe...";
+      };
+
+      recognition.onresult = (event) => {
+        let interim = "";
+        for (let i = event.resultIndex; i < event.results.length; i++) {
+          const transcript = event.results[i][0].transcript;
+          if (event.results[i].isFinal) finalTranscript += transcript;
+          else interim += transcript;
+        }
+        input.value = (finalTranscript + interim).trim();
+      };
+
+      recognition.onerror = (event) => {
+        if (event.error === "not-allowed" || event.error === "service-not-allowed") {
+          input.placeholder = "Bạn cần cho phép quyền micro để dùng giọng nói.";
+        } else if (event.error !== "no-speech" && event.error !== "aborted") {
+          input.placeholder = "Không nhận được giọng nói, bạn thử lại nhé.";
+        }
+      };
+
+      recognition.onend = () => {
+        listening = false;
+        recognition = null;
+        micBtn.classList.remove("chat-mic-active");
+        micBtn.setAttribute("aria-label", "Nhập bằng giọng nói");
+        input.placeholder = "Nhập câu hỏi của bạn...";
+        input.focus();
+      };
+
+      recognition.start();
+    }
 
     const brandColor = cfg.primaryColor || "#4f7a6b";
     const brandColorDark = darkenHex(brandColor, 0.18);
@@ -204,6 +266,7 @@ async function fetchBotConfig() {
       header.querySelector(".chat-header-subtitle").textContent = cfg.botSubtitle;
       header.querySelector(".contact-btn").addEventListener("click", () => showContactModal(rootEl, cfg));
       header.querySelector(".chat-minimize").addEventListener("click", () => {
+        stopVoiceInput();
         open = false;
         render();
       });
@@ -260,9 +323,23 @@ async function fetchBotConfig() {
       sendBtn.className = "chat-send";
       sendBtn.textContent = sending ? "..." : "Gửi";
       sendBtn.disabled = sending;
-      form.append(input, sendBtn);
+
+      if (SpeechRecognitionCtor) {
+        const micBtn = document.createElement("button");
+        micBtn.type = "button";
+        micBtn.className = "chat-mic" + (listening ? " chat-mic-active" : "");
+        micBtn.setAttribute("aria-label", listening ? "Dừng ghi âm" : "Nhập bằng giọng nói");
+        micBtn.textContent = "🎤";
+        micBtn.disabled = sending;
+        micBtn.addEventListener("click", () => toggleVoiceInput(input, micBtn));
+        form.append(input, micBtn, sendBtn);
+      } else {
+        form.append(input, sendBtn);
+      }
+
       form.addEventListener("submit", (e) => {
         e.preventDefault();
+        stopVoiceInput();
         const text = input.value;
         if (text.trim()) sendMessage(text);
       });
@@ -308,6 +385,7 @@ async function fetchBotConfig() {
       const trimmed = text.trim();
       if (!trimmed || sending) return;
 
+      stopVoiceInput();
       messages.push({ id: makeId(), role: "user", content: trimmed });
       sending = true;
       render();
