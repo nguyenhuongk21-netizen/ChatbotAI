@@ -285,6 +285,7 @@ async function fetchBotConfig() {
         fab.type = "button";
         fab.className = "chat-fab";
         fab.setAttribute("aria-label", `Mở chat với ${cfg.botName}`);
+        fab.title = "Gặp trợ lý";
         fab.innerHTML = avatarHtml("chat-avatar-img");
         fab.addEventListener("click", () => {
           open = true;
