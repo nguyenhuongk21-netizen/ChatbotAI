@@ -108,6 +108,8 @@ var GEMINI_MODEL = 'gemini-3.6-flash'; // gemini-2.5-flash đã ngừng phục v
 var MAX_MESSAGES = 40; // tối đa số tin nhắn giữ lại trong 1 lượt gọi (chống lạm dụng)
 var MAX_MESSAGE_LENGTH = 4000; // tối đa ký tự mỗi tin nhắn
 var KNOWLEDGE_DRIVE_FILENAME = 'PranaGuide_KnowledgeBase_Override.txt';
+var ACCESS_CODES_PROP = 'ACCESS_CODES'; // JSON: [{ code, label, deviceIds:[], createdAt, lastUsedAt }]
+var MAX_DEVICES_PER_CODE = 2; // mỗi mã tối đa dùng trên 2 thiết bị — quá số này thì từ chối
 
 // =============================================================================
 // ĐIỂM VÀO WEB APP
@@ -157,6 +159,17 @@ function doPost(e) {
       body = JSON.parse(e.postData.contents);
     } catch (parseErr) {
       return jsonResponse_({ error: 'Body không hợp lệ (không phải JSON).' });
+    }
+
+    if (body.type === 'verify-access') {
+      return jsonResponse_(verifyAndBindAccessCode_(body.code, body.deviceId));
+    }
+
+    if (!checkAccessCode_(body.code, body.deviceId)) {
+      return jsonResponse_({
+        error: 'Bạn cần nhập mã truy cập hợp lệ để dùng chat.',
+        needAccessCode: true,
+      });
     }
 
     var messages = sanitizeMessages_(body.messages);
@@ -291,6 +304,129 @@ function adminSaveBotConfig(configObj) {
   }
   PropertiesService.getScriptProperties().setProperty('BOT_CONFIG_OVERRIDE', JSON.stringify(configObj));
   return { ok: true };
+}
+
+/** Danh sách mã truy cập cho trang Admin — KHÔNG trả deviceIds thật, chỉ trả số lượng. */
+function adminListAccessCodes() {
+  return getAccessCodes_().map(function (item) {
+    return {
+      code: item.code,
+      label: item.label,
+      deviceCount: item.deviceIds.length,
+      maxDevices: MAX_DEVICES_PER_CODE,
+      createdAt: item.createdAt,
+      lastUsedAt: item.lastUsedAt,
+    };
+  });
+}
+
+function adminCreateAccessCode(label) {
+  if (typeof label !== 'string' || !label.trim()) {
+    throw new Error('Cần nhập tên/nhãn cho người được cấp mã.');
+  }
+  var list = getAccessCodes_();
+  var code;
+  do {
+    code = generateAccessCode_();
+  } while (list.some(function (item) { return item.code === code; }));
+
+  list.push({
+    code: code,
+    label: label.trim(),
+    deviceIds: [],
+    createdAt: new Date().toISOString(),
+    lastUsedAt: null,
+  });
+  saveAccessCodes_(list);
+  return { code: code, label: label.trim() };
+}
+
+function adminResetAccessCodeDevices(code) {
+  var list = getAccessCodes_();
+  var entry = list.filter(function (item) { return item.code === code; })[0];
+  if (!entry) throw new Error('Không tìm thấy mã này.');
+  entry.deviceIds = [];
+  saveAccessCodes_(list);
+  return { ok: true };
+}
+
+function adminDeleteAccessCode(code) {
+  var list = getAccessCodes_().filter(function (item) { return item.code !== code; });
+  saveAccessCodes_(list);
+  return { ok: true };
+}
+
+// =============================================================================
+// KIỂM SOÁT MÃ TRUY CẬP — mỗi người dùng được cấp 1 mã riêng (tạo/quản lý qua trang
+// Admin). Mã tự khoá vào thiết bị đầu tiên dùng nó, tối đa MAX_DEVICES_PER_CODE thiết
+// bị/mã — nếu người được cấp mã đưa mã cho người khác gõ trên thiết bị thứ 3+, người đó
+// sẽ bị từ chối. Đây KHÔNG phải cơ chế chống chia sẻ tuyệt đối (ai cũng có thể chép mã
+// gửi đi), nhưng đủ để hạn chế lan truyền ngoài ý muốn và cho phép thu hồi từng người.
+// =============================================================================
+
+function getAccessCodes_() {
+  var raw = PropertiesService.getScriptProperties().getProperty(ACCESS_CODES_PROP);
+  if (!raw) return [];
+  try {
+    var list = JSON.parse(raw);
+    return Array.isArray(list) ? list : [];
+  } catch (err) {
+    Logger.log('ACCESS_CODES lỗi JSON, coi như rỗng: ' + err);
+    return [];
+  }
+}
+
+function saveAccessCodes_(list) {
+  PropertiesService.getScriptProperties().setProperty(ACCESS_CODES_PROP, JSON.stringify(list));
+}
+
+function generateAccessCode_() {
+  var chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // bỏ ký tự dễ nhầm: 0/O, 1/I
+  var code = '';
+  for (var i = 0; i < 8; i++) {
+    code += chars.charAt(Math.floor(Math.random() * chars.length));
+  }
+  return code;
+}
+
+/** Kiểm tra READ-ONLY — dùng cho mỗi lượt chat, không ghi lại Script Properties. */
+function checkAccessCode_(code, deviceId) {
+  if (typeof code !== 'string' || !code.trim() || typeof deviceId !== 'string' || !deviceId.trim()) {
+    return false;
+  }
+  var normalized = code.trim().toUpperCase();
+  var entry = getAccessCodes_().filter(function (item) { return item.code === normalized; })[0];
+  if (!entry) return false;
+  return entry.deviceIds.indexOf(deviceId) !== -1;
+}
+
+/** Xác thực + gán thiết bị (nếu còn suất) — chỉ gọi lúc người dùng nhập mã lần đầu. */
+function verifyAndBindAccessCode_(code, deviceId) {
+  if (typeof code !== 'string' || !code.trim()) {
+    return { ok: false, error: 'Vui lòng nhập mã truy cập.' };
+  }
+  if (typeof deviceId !== 'string' || !deviceId.trim()) {
+    return { ok: false, error: 'Thiếu thông tin thiết bị, vui lòng tải lại trang.' };
+  }
+  var normalized = code.trim().toUpperCase();
+  var list = getAccessCodes_();
+  var entry = list.filter(function (item) { return item.code === normalized; })[0];
+  if (!entry) {
+    return { ok: false, error: 'Mã truy cập không đúng.' };
+  }
+
+  if (entry.deviceIds.indexOf(deviceId) === -1) {
+    if (entry.deviceIds.length >= MAX_DEVICES_PER_CODE) {
+      return {
+        ok: false,
+        error: 'Mã này đã được dùng trên đủ ' + MAX_DEVICES_PER_CODE + ' thiết bị. Liên hệ quản trị viên để được cấp lại.',
+      };
+    }
+    entry.deviceIds.push(deviceId);
+  }
+  entry.lastUsedAt = new Date().toISOString();
+  saveAccessCodes_(list);
+  return { ok: true, label: entry.label };
 }
 
 // =============================================================================

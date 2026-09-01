@@ -95,7 +95,103 @@
             '<p class="status error">Lỗi tải dữ liệu: ' + err.message + "</p>";
         })
         .adminGetData();
+      loadAccessCodes();
     }
+
+    // ---- Kiểm soát người dùng (mã truy cập) ----
+
+    function fmtDate(iso) {
+      if (!iso) return "—";
+      const d = new Date(iso);
+      return d.toLocaleString("vi-VN", { dateStyle: "short", timeStyle: "short" });
+    }
+
+    function renderAccessTable(list) {
+      const body = document.getElementById("access-table-body");
+      const emptyHint = document.getElementById("access-empty-hint");
+      body.innerHTML = "";
+      emptyHint.style.display = list.length ? "none" : "block";
+      list.forEach((item) => {
+        const row = document.createElement("tr");
+        row.innerHTML =
+          "<td>" + escapeAttr(item.label) + "</td>" +
+          "<td><code>" + escapeAttr(item.code) + "</code></td>" +
+          "<td>" + item.deviceCount + "/" + item.maxDevices + "</td>" +
+          "<td>" + fmtDate(item.createdAt) + "</td>" +
+          "<td>" + fmtDate(item.lastUsedAt) + "</td>" +
+          '<td class="access-actions">' +
+          '<button type="button" class="btn" data-reset="' + escapeAttr(item.code) + '">Reset thiết bị</button>' +
+          '<button type="button" class="btn btn-danger" data-delete="' + escapeAttr(item.code) + '">Xóa</button>' +
+          "</td>";
+        body.appendChild(row);
+      });
+
+      body.querySelectorAll("[data-reset]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const code = btn.getAttribute("data-reset");
+          btn.disabled = true;
+          google.script.run
+            .withSuccessHandler(() => loadAccessCodes())
+            .withFailureHandler((err) => {
+              btn.disabled = false;
+              alert("Lỗi: " + err.message);
+            })
+            .adminResetAccessCodeDevices(code);
+        });
+      });
+
+      body.querySelectorAll("[data-delete]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const code = btn.getAttribute("data-delete");
+          if (!confirm("Xóa mã này? Người đang dùng mã sẽ không chat được nữa.")) return;
+          btn.disabled = true;
+          google.script.run
+            .withSuccessHandler(() => loadAccessCodes())
+            .withFailureHandler((err) => {
+              btn.disabled = false;
+              alert("Lỗi: " + err.message);
+            })
+            .adminDeleteAccessCode(code);
+        });
+      });
+    }
+
+    function loadAccessCodes() {
+      google.script.run
+        .withSuccessHandler(renderAccessTable)
+        .withFailureHandler((err) => {
+          setStatus("status-access-create", "Lỗi tải danh sách: " + err.message, true);
+        })
+        .adminListAccessCodes();
+    }
+
+    document.getElementById("btn-create-access").addEventListener("click", (e) => {
+      const btn = e.target;
+      const input = document.getElementById("access-new-label");
+      const label = input.value.trim();
+      if (!label) {
+        setStatus("status-access-create", "Vui lòng nhập tên người được cấp mã.", true);
+        return;
+      }
+      btn.disabled = true;
+      google.script.run
+        .withSuccessHandler((result) => {
+          btn.disabled = false;
+          input.value = "";
+          document.getElementById("status-access-create").innerHTML =
+            '<div class="access-new-code-banner">Đã tạo mã cho <strong>' +
+            escapeAttr(result.label) +
+            '</strong>: <code>' +
+            escapeAttr(result.code) +
+            "</code> — gửi mã này cho họ để dùng chat.</div>";
+          loadAccessCodes();
+        })
+        .withFailureHandler((err) => {
+          btn.disabled = false;
+          setStatus("status-access-create", "Lỗi: " + err.message, true);
+        })
+        .adminCreateAccessCode(label);
+    });
 
     // ---- Sự kiện ----
 

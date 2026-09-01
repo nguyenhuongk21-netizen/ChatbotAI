@@ -131,6 +131,63 @@
         margin-top: 12px;
       }
       .checkbox-row input { margin: 0; }
+      .access-new-row {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 4px;
+      }
+      .access-new-row input {
+        flex: 1;
+      }
+      .access-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 14px;
+        font-size: 12.5px;
+      }
+      .access-table th,
+      .access-table td {
+        text-align: left;
+        padding: 8px 6px;
+        border-bottom: 1px solid #efe9dc;
+        vertical-align: middle;
+      }
+      .access-table th {
+        color: #7a7a70;
+        font-weight: 600;
+        font-size: 11.5px;
+        text-transform: uppercase;
+      }
+      .access-table code {
+        background: #f4f1ea;
+        padding: 2px 6px;
+        border-radius: 6px;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+      }
+      .access-table .btn {
+        padding: 5px 10px;
+        font-size: 12px;
+      }
+      .access-actions {
+        display: flex;
+        gap: 6px;
+        white-space: nowrap;
+      }
+      .access-new-code-banner {
+        background: #eef4ec;
+        border: 1px solid #cfe0d2;
+        border-radius: 10px;
+        padding: 10px 14px;
+        margin: 10px 0;
+        font-size: 13px;
+      }
+      .access-new-code-banner code {
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        color: #2f4a3f;
+      }
     </style>
   </head>
   <body>
@@ -196,6 +253,37 @@
         <button type="button" class="btn btn-primary" id="btn-save-config">Lưu giao diện & liên hệ</button>
         <span class="status" id="status-config"></span>
       </div>
+    </section>
+
+    <section class="card">
+      <h2>Kiểm soát người dùng (mã truy cập)</h2>
+      <p class="hint">
+        Mỗi người bạn muốn cho dùng chat cần 1 mã riêng. Mã tự khoá vào thiết bị đầu tiên dùng nó, tối đa
+        <strong>2 thiết bị/mã</strong> — nếu người đó đưa mã cho người khác gõ trên thiết bị thứ 3, người đó sẽ bị từ
+        chối. Muốn thu hồi hẳn 1 người, bấm <strong>Xóa</strong>; muốn cho họ dùng lại từ đầu (đổi điện thoại...),
+        bấm <strong>Reset thiết bị</strong>.
+      </p>
+
+      <div class="access-new-row">
+        <input type="text" id="access-new-label" placeholder="Tên người được cấp mã (VD: Chị Lan)" />
+        <button type="button" class="btn btn-primary" id="btn-create-access">+ Tạo mã mới</button>
+      </div>
+      <div class="status" id="status-access-create"></div>
+
+      <table class="access-table" id="access-table">
+        <thead>
+          <tr>
+            <th>Tên</th>
+            <th>Mã</th>
+            <th>Thiết bị</th>
+            <th>Tạo lúc</th>
+            <th>Dùng lần cuối</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="access-table-body"></tbody>
+      </table>
+      <p class="hint" id="access-empty-hint">Chưa có mã truy cập nào — tạo mã đầu tiên ở trên.</p>
     </section>
 
     <section class="card">

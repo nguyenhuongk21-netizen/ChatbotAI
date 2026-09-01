@@ -369,6 +369,82 @@ body {
   background: rgba(255, 255, 255, 0.15);
 }
 
+/* ---------- Màn hình yêu cầu mã truy cập (kiểm soát người dùng) ---------- */
+
+.access-gate {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 32px 24px;
+  text-align: center;
+  background: #fbf9f4;
+}
+
+.access-gate-icon {
+  font-size: 40px;
+}
+
+.access-gate-text {
+  font-size: 13.5px;
+  color: #55564c;
+  line-height: 1.5;
+  max-width: 320px;
+  margin: 0;
+}
+
+.access-gate-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 280px;
+}
+
+.access-gate-input {
+  border: 1px solid #dcd6c7;
+  border-radius: 999px;
+  padding: 11px 16px;
+  font-size: 16px; /* tránh iOS Safari tự zoom khi focus (giống lỗi đã gặp ở ô chat) */
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.access-gate-input:focus {
+  outline: none;
+  border-color: var(--brand-color, #7fa87f);
+}
+
+.access-gate-input:disabled {
+  opacity: 0.6;
+}
+
+.btn-primary-full {
+  border: none;
+  background: var(--brand-color-dark, #4f7a6b);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 11px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.btn-primary-full:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.access-gate-error {
+  color: #a5432e;
+  font-size: 12.5px;
+  min-height: 16px;
+  margin: 0;
+}
+
 .chat-list {
   flex: 1;
   overflow-y: auto;

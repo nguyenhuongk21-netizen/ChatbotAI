@@ -118,6 +118,42 @@ async function fetchBotConfig() {
     return wrapper.innerHTML;
   }
 
+  // ---------- Mã truy cập (kiểm soát người dùng) ----------
+
+  const ACCESS_CODE_KEY = "pranaGuideAccessCode";
+  const DEVICE_ID_KEY = "pranaGuideDeviceId";
+
+  function getDeviceId() {
+    let id = localStorage.getItem(DEVICE_ID_KEY);
+    if (!id) {
+      id = window.crypto && crypto.randomUUID ? crypto.randomUUID() : Date.now().toString(36) + Math.random().toString(36).slice(2);
+      localStorage.setItem(DEVICE_ID_KEY, id);
+    }
+    return id;
+  }
+
+  function getStoredAccessCode() {
+    return localStorage.getItem(ACCESS_CODE_KEY) || "";
+  }
+
+  function setStoredAccessCode(code) {
+    if (code) localStorage.setItem(ACCESS_CODE_KEY, code);
+    else localStorage.removeItem(ACCESS_CODE_KEY);
+  }
+
+  async function verifyAccessCode(code) {
+    const res = await fetch(PROXY_URL, {
+      method: "POST",
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify({ type: "verify-access", code, deviceId: getDeviceId() }),
+    });
+    try {
+      return await res.json();
+    } catch {
+      return { ok: false, error: `Phản hồi không hợp lệ từ server (${res.status}).` };
+    }
+  }
+
   // ---------- Gọi backend (Apps Script Web App) ----------
 
   /**
@@ -128,7 +164,7 @@ async function fetchBotConfig() {
     const res = await fetch(PROXY_URL, {
       method: "POST",
       headers: { "Content-Type": "text/plain;charset=utf-8" },
-      body: JSON.stringify({ messages }),
+      body: JSON.stringify({ messages, code: getStoredAccessCode(), deviceId: getDeviceId() }),
     });
     let data;
     try {
@@ -137,7 +173,9 @@ async function fetchBotConfig() {
       throw new Error(`Phản hồi không hợp lệ từ server (${res.status}).`);
     }
     if (!res.ok || data.error) {
-      throw new Error(data.error || `Yêu cầu thất bại (${res.status}).`);
+      const err = new Error(data.error || `Yêu cầu thất bại (${res.status}).`);
+      if (data.needAccessCode) err.needAccessCode = true;
+      throw err;
     }
     return data.reply;
   }
@@ -164,6 +202,7 @@ async function fetchBotConfig() {
     let sending = false;
     let listening = false;
     let recognition = null;
+    let unlocked = !!getStoredAccessCode();
     let messages = [{ id: "greeting", role: "assistant", content: cfg.greeting }];
 
     function stopVoiceInput() {
@@ -283,6 +322,12 @@ async function fetchBotConfig() {
       });
       widget.appendChild(header);
 
+      if (!unlocked) {
+        widget.appendChild(renderAccessGate());
+        rootEl.appendChild(widget);
+        return;
+      }
+
       // Marquee
       if (cfg.marqueeEnabled && cfg.marqueeText) {
         const marquee = document.createElement("div");
@@ -363,6 +408,52 @@ async function fetchBotConfig() {
       if (!sending) input.focus();
     }
 
+    function renderAccessGate() {
+      const gate = document.createElement("div");
+      gate.className = "access-gate";
+      gate.innerHTML = `
+        <div class="access-gate-icon">🔒</div>
+        <p class="access-gate-text">Chat này chỉ dành cho người được cấp mã truy cập riêng. Nhập mã bạn đã được gửi để bắt đầu trò chuyện.</p>
+        <form class="access-gate-form">
+          <input type="text" class="access-gate-input" placeholder="Nhập mã truy cập" autocapitalize="characters" autocomplete="off" />
+          <button type="submit" class="btn-primary-full">Xác nhận</button>
+        </form>
+        <p class="access-gate-error"></p>
+      `;
+      const form = gate.querySelector(".access-gate-form");
+      const input = gate.querySelector(".access-gate-input");
+      const errorEl = gate.querySelector(".access-gate-error");
+      const submitBtn = gate.querySelector("button[type=submit]");
+
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const code = input.value.trim();
+        if (!code) return;
+        input.disabled = true;
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Đang kiểm tra...";
+        errorEl.textContent = "";
+        try {
+          const result = await verifyAccessCode(code);
+          if (result.ok) {
+            setStoredAccessCode(code.toUpperCase());
+            unlocked = true;
+            render();
+            return;
+          }
+          errorEl.textContent = result.error || "Mã không hợp lệ.";
+        } catch (err) {
+          errorEl.textContent = err.message || "Có lỗi xảy ra, vui lòng thử lại.";
+        }
+        input.disabled = false;
+        submitBtn.disabled = false;
+        submitBtn.textContent = "Xác nhận";
+        input.focus();
+      });
+
+      return gate;
+    }
+
     function renderMessage(m, cfg) {
       const isUser = m.role === "user";
       const row = document.createElement("div");
@@ -409,13 +500,18 @@ async function fetchBotConfig() {
         const reply = await callChatApi(history);
         messages.push({ id: makeId(), role: "assistant", content: reply });
       } catch (err) {
-        const hotline = cfg.contactInfo.zalo;
-        messages.push({
-          id: makeId(),
-          role: "assistant",
-          content: `Xin lỗi, mình đang gặp sự cố: ${err.message}\n\nBạn vui lòng liên hệ hotline/Zalo **${hotline}** để được hỗ trợ nhé.`,
-          isError: true,
-        });
+        if (err.needAccessCode) {
+          setStoredAccessCode("");
+          unlocked = false;
+        } else {
+          const hotline = cfg.contactInfo.zalo;
+          messages.push({
+            id: makeId(),
+            role: "assistant",
+            content: `Xin lỗi, mình đang gặp sự cố: ${err.message}\n\nBạn vui lòng liên hệ hotline/Zalo **${hotline}** để được hỗ trợ nhé.`,
+            isError: true,
+          });
+        }
       } finally {
         sending = false;
         render();
