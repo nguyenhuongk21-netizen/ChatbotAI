@@ -1224,10 +1224,11 @@ Hệ số hoạt động tham khảo:
 - Vận động vừa, tập thể dục 3–5 lần/tuần: 1,55
 - Vận động nhiều, tập luyện hằng ngày: 1,75
 
-## Điều chỉnh theo mục tiêu (dựa trên TDEE)
+## Điều chỉnh theo mục tiêu (dựa trên TDEE, tính theo % tùy mức độ và thể trạng)
 - Giữ cân: giữ nguyên mức TDEE.
-- Giảm cân: TDEE trừ 300 kcal/ngày. KHÔNG đề xuất mức dưới ngưỡng an toàn tối thiểu (khoảng 1.200–1.500 kcal/ngày với người trưởng thành, tùy giới tính/thể trạng) — nếu TDEE trừ 300 thấp hơn ngưỡng này, giữ ở mức an toàn tối thiểu thay vì trừ đủ 300.
-- Tăng cân: TDEE cộng thêm 300 kcal/ngày.
+- Giảm cân — Nhẹ: TDEE − 5%; Vừa: TDEE − 10%; Nhiều: TDEE − 15%. KHÔNG đề xuất mức dưới ngưỡng an toàn tối thiểu (khoảng 1.200–1.500 kcal/ngày với người trưởng thành, tùy giới tính/thể trạng) — nếu mức đã chọn thấp hơn ngưỡng này, giữ ở mức an toàn tối thiểu thay vì trừ đủ theo %.
+- Tăng cân — Nhẹ: TDEE + 5%; Vừa: TDEE + 10%.
+- Mức độ (nhẹ/vừa/nhiều) nên chọn tùy theo thể trạng người dùng (người mới tập, sức khỏe yếu, lớn tuổi... nên ưu tiên mức nhẹ hơn).
 
 ## Phân bổ 3 nhóm chất (macro) — tỉ lệ mặc định
 - Đạm (Protein): 25% tổng năng lượng → gram = (kcal × 25%) ÷ 4
