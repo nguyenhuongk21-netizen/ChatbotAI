@@ -1232,12 +1232,74 @@ Công thức Mifflin–St Jeor (1990, sai số trung bình ±5%, được xem l�
 - Nữ: BMR = 10 × cân nặng(kg) + 6,25 × chiều cao(cm) − 5 × tuổi − 161
 Đơn vị: kcal/ngày.
 
-## Công thức tính TDEE (Total Daily Energy Expenditure — tổng năng lượng tiêu hao/ngày)
+## Công thức tính TDEE (Total Daily Energy Expenditure — tổng năng lượng tiêu hao/ngày) — PHƯƠNG PHÁP CHI TIẾT THEO TỪNG HOẠT ĐỘNG (dùng phương pháp này khi người dùng đã mô tả chi tiết các hoạt động trong ngày)
+Bước a: Gross kcal (của 1 hoạt động) = MET × 3,5 × cân nặng(kg) ÷ 200 × số phút hoạt động đó. (Tra hệ số MET ở bảng "Hệ số MET theo hoạt động" bên dưới.)
+Bước b: REE mỗi phút = BMR ÷ 1440.
+Bước c: Năng lượng nghỉ (của hoạt động đó) = REE mỗi phút × số phút hoạt động đó.
+Bước d: Net Activity Calories (của hoạt động đó) = Gross kcal − Năng lượng nghỉ.
+Bước e: Tổng Net Activity = cộng Net Activity Calories của TẤT CẢ hoạt động trong ngày (kể cả phần "sinh hoạt nhẹ" chưa phân bổ, MET≈1,5).
+Bước f: TEF (Thermic Effect of Food — năng lượng tiêu hóa thức ăn) ≈ 10% × (BMR + Tổng Net Activity).
+Bước g: TDEE = BMR + Tổng Net Activity + TEF.
+
+Ví dụ minh họa (Nữ, 40 tuổi, 50kg, cao 160cm, BMR≈1.139 kcal/ngày):
+| Hoạt động | Thời gian | MET | Gross (kcal) | Nghỉ (kcal) | Net (kcal) |
+|---|---|---|---|---|---|
+| Ngủ | 8h | 0,95 | ~399 | ~380 | ~19 |
+| Ngồi văn phòng | 8h | 1,30 | ~546 | ~380 | ~166 |
+| Yoga nhẹ | 1h | 2,50 | ~131 | ~47 | ~84 |
+| Đi bộ 2,7 km/h | 30 phút | 2,30 | ~60 | ~24 | ~37 |
+| Làm việc nhà | 1h | 3,50 | ~184 | ~47 | ~136 |
+| Nấu ăn | 1h | 3,00 | ~158 | ~47 | ~110 |
+| Sinh hoạt nhẹ còn lại | 4,5h | 1,50 | ~354 | ~214 | ~141 |
+| **Tổng (24h)** | | | ~1.832 | ~1.139 | **~693** |
+TEF ≈ 10% × (1.139 + 693) ≈ 183 → TDEE ≈ 1.139 + 693 + 183 ≈ **2.015 kcal/ngày**
+
+## Công thức tính TDEE — PHƯƠNG PHÁP NHANH (dùng khi chỉ biết mức độ vận động chung chung, KHÔNG có mô tả chi tiết hoạt động)
 TDEE = BMR × Hệ số hoạt động
 Hệ số hoạt động tham khảo:
 - Ít vận động, công việc văn phòng: 1,3
 - Vận động vừa, tập thể dục 3–5 lần/tuần: 1,55
 - Vận động nhiều, tập luyện hằng ngày: 1,75
+
+## Hệ số MET theo hoạt động (dùng cho phương pháp chi tiết ở trên)
+| Hoạt động | MET |
+|---|---|
+| Ngủ | 0,95 |
+| Ngồi văn phòng / làm việc trí óc | 1,3 |
+| Sinh hoạt nhẹ (đi lại trong nhà, vệ sinh cá nhân, đứng) | 1,5 |
+| Đi bộ rất chậm (~2 km/h) | 2,0 |
+| Đi bộ chậm (2,7 km/h) | 2,3 |
+| Đi bộ vừa (3,2 km/h) | 2,8 |
+| Đi bộ (4 km/h) | 3,0 |
+| Đi bộ nhanh (4,8 km/h) | 3,5 |
+| Đi bộ rất nhanh (5,6 km/h) | 4,3 |
+| Đi bộ/chạy nhẹ (6,4 km/h) | 5,0 |
+| Đi bộ lên dốc nhẹ | 4,0 |
+| Đi bộ đường núi / trekking | 6,0 |
+| Nấu ăn (đứng bếp) | 2,5–3,5 |
+| Rửa bát, dọn bếp | 2,5–3,3 |
+| Quét nhà, lau nhà, hút bụi | 3,3–3,5 |
+| Giặt giũ, phơi/gấp quần áo | 2,3–3,0 |
+| Dọn giường, dọn phòng ngủ | 3,0 |
+| Làm vườn nhẹ, tưới cây | 2,5–4,0 |
+| Mua sắm, đi siêu thị | 2,3–3,0 |
+| Đi cầu thang | 8,0 |
+| Chạy bộ (8 km/h) | 8,3 |
+| Chạy bộ (10 km/h) | 9,8 |
+| Đạp xe nhẹ | 4,0 |
+| Đạp xe vừa (16–19 km/h) | 6,0 |
+| Bơi nhẹ | 5,0 |
+| Bơi vừa | 7,0 |
+| Tập gym – tạ nhẹ | 3,5 |
+| Tập gym – tạ vừa | 5,0 |
+| Tập gym – tạ nặng | 6,0 |
+| Yoga nhẹ / Hatha | 2,5 |
+| Yoga Power | 4,0 |
+| Pilates | 3,0–4,0 |
+| Aerobic / Zumba | 4,0–8,8 |
+| Cầu lông, bóng bàn, bóng chuyền (nhẹ-vừa) | 4,0–5,5 |
+| Bóng đá, bóng rổ (thi đấu) | 8,0–10,0 |
+Ghi chú: nếu hoạt động người dùng mô tả không có trong bảng, dùng hoạt động gần giống nhất làm tham khảo hợp lý.
 
 ## Điều chỉnh theo mục tiêu (dựa trên TDEE, tính theo % tùy mức độ và thể trạng)
 - Giữ cân: giữ nguyên mức TDEE.

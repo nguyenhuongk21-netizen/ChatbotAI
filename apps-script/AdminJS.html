@@ -257,6 +257,23 @@
         .adminSaveSystemPrompt(text);
     });
 
+    document.getElementById("btn-reset-prompt").addEventListener("click", (e) => {
+      if (!confirm("Xóa bản ghi đè System Prompt và quay lại dùng đúng nội dung mới nhất trong code? Hành động này không hoàn tác được.")) return;
+      const btn = e.target;
+      btn.disabled = true;
+      google.script.run
+        .withSuccessHandler((result) => {
+          btn.disabled = false;
+          document.getElementById("system-prompt").value = result.systemPrompt;
+          setStatus("status-prompt", "Đã khôi phục về nội dung mặc định trong code.", false);
+        })
+        .withFailureHandler((err) => {
+          btn.disabled = false;
+          setStatus("status-prompt", "Lỗi: " + err.message, true);
+        })
+        .adminResetSystemPrompt();
+    });
+
     document.getElementById("btn-save-knowledge").addEventListener("click", (e) => {
       const btn = e.target;
       const text = document.getElementById("knowledge-base").value;

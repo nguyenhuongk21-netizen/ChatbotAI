@@ -289,9 +289,11 @@
     <section class="card">
       <h2>System Prompt (tính cách & hành vi bot)</h2>
       <p class="hint">Chỉ dẫn hành vi gửi cho Gemini — không phải nội dung kiến thức (chỉnh ở mục bên dưới).</p>
+      <p class="hint">⚠️ Nếu bạn đã từng bấm "Lưu System Prompt" ở đây, nội dung đã lưu sẽ LUÔN được dùng thay cho nội dung mới trong code, kể cả khi lập trình viên cập nhật code sau này. Bấm "Khôi phục mặc định" bên dưới để quay lại dùng đúng nội dung mới nhất trong code.</p>
       <textarea class="code" id="system-prompt" rows="20"></textarea>
       <div class="save-bar">
         <button type="button" class="btn btn-primary" id="btn-save-prompt">Lưu System Prompt</button>
+        <button type="button" class="btn btn-danger" id="btn-reset-prompt">Khôi phục mặc định (dùng nội dung trong code)</button>
         <span class="status" id="status-prompt"></span>
       </div>
     </section>

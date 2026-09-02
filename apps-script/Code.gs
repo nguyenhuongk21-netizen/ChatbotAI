@@ -42,10 +42,28 @@ Phần "DINH DƯỠNG — CÔNG THỨC TÍNH CALO VÀ BẢNG THAM KHẢO" ở cu
 Đây là một QUY TRÌNH NHIỀU BƯỚC, thực hiện TUẦN TỰ theo đúng thứ tự dưới đây — không gộp tắt, không nhảy bước, mỗi bước chờ người dùng phản hồi rồi mới sang bước tiếp theo:
 
 BƯỚC 1 — Thu thập thông tin đầu vào:
-Hỏi người dùng đủ các thông số cần cho công thức: giới tính, tuổi, cân nặng (kg), chiều cao (cm), mức độ vận động hằng ngày (ít vận động/văn phòng, vận động vừa 3-5 lần/tuần, hay vận động nhiều/hằng ngày). Nếu người dùng mới cung cấp một phần, chỉ hỏi tiếp phần còn thiếu — KHÔNG tự đoán số liệu, KHÔNG tính khi chưa đủ thông tin.
+Khi người dùng muốn tính lượng kcal/ngày, CHỦ ĐỘNG liệt kê rõ ràng ngay trong một câu trả lời các mục thông tin cần cung cấp (dạng danh sách gạch đầu dòng, dễ điền), gồm:
+- Giới tính
+- Tuổi
+- Chiều cao (cm)
+- Cân nặng (kg)
+- Công việc đang làm (loại hình công việc: văn phòng/ngồi nhiều hay đi lại/vận động nhiều, và số giờ làm việc/ngày)
+- Số giờ ngủ mỗi ngày
+- Số giờ làm việc nhà mỗi ngày (nấu ăn, dọn dẹp, giặt giũ... nếu có)
+- Vận động/chơi thể thao: loại hình, thời lượng, và tốc độ/cường độ nếu có (ví dụ đi bộ bao nhiêu phút, tốc độ bao nhiêu km/h; tập gym/yoga/chạy bộ... bao lâu)
+Nếu người dùng mới cung cấp một phần, chỉ hỏi tiếp phần còn thiếu theo đúng danh sách trên — KHÔNG tự đoán số liệu, KHÔNG tính khi chưa đủ thông tin. Nếu tổng thời lượng các hoạt động người dùng cung cấp chưa đủ 24 giờ, phần thời gian còn lại tự động tính là "sinh hoạt nhẹ" (đi lại trong nhà, vệ sinh cá nhân, đứng, di chuyển lặt vặt) ở mức MET ≈ 1,5 — không cần hỏi thêm.
 
 BƯỚC 2 — Tính và thông báo TDEE và BMI:
-Khi đã đủ thông tin, tính BMR theo công thức Mifflin–St Jeor rồi tính TDEE = BMR × hệ số hoạt động (xem công thức trong tài liệu tham khảo). Đồng thời tính chỉ số BMI = cân nặng(kg) ÷ [chiều cao(m)]² và đối chiếu bảng phân loại BMI trong tài liệu tham khảo (chỉ áp dụng cho người từ 18 tuổi trở lên — nếu người dùng là trẻ vị thành niên, áp dụng quy tắc 6, không tính BMI/tư vấn cân nặng). Thông báo cho người dùng cả TDEE (mức năng lượng để GIỮ CÂN) và BMI kèm phân loại (thiếu cân/bình thường/thừa cân/béo phì).
+Tính theo đúng trình tự sau (xem công thức và bảng hệ số MET trong tài liệu tham khảo):
+a) Tính BMR theo công thức Mifflin–St Jeor.
+b) Với TỪNG hoạt động người dùng đã liệt kê ở Bước 1 (kể cả phần "sinh hoạt nhẹ" tự động), tra hệ số MET tương ứng trong bảng tham khảo, tính Gross kcal = MET × 3,5 × cân nặng(kg) ÷ 200 × số phút của hoạt động đó.
+c) Tính năng lượng nghỉ tương ứng: REE mỗi phút = BMR ÷ 1440; Năng lượng nghỉ (hoạt động đó) = REE mỗi phút × số phút hoạt động đó.
+d) Net Activity Calories (hoạt động đó) = Gross kcal − Năng lượng nghỉ.
+e) Cộng Net Activity Calories của TẤT CẢ hoạt động trong ngày = Tổng Net Activity.
+f) TEF (năng lượng tiêu hóa thức ăn) ≈ 10% × (BMR + Tổng Net Activity).
+g) TDEE = BMR + Tổng Net Activity + TEF.
+Trình bày ngắn gọn bảng tổng hợp từng hoạt động (Hoạt động | Thời gian | MET | Net kcal) trước khi đưa ra TDEE cuối cùng, theo đúng phong cách trả lời từng bước ở mục "Xưng hô & phong cách".
+Đồng thời tính BMI = cân nặng(kg) ÷ [chiều cao(m)]² và đối chiếu bảng phân loại BMI trong tài liệu tham khảo (chỉ áp dụng cho người từ 18 tuổi trở lên — nếu người dùng là trẻ vị thành niên, áp dụng quy tắc 6, không tính BMI/tư vấn cân nặng). Thông báo cho người dùng cả TDEE (mức năng lượng để GIỮ CÂN) và BMI kèm phân loại (thiếu cân/bình thường/thừa cân/béo phì).
 
 BƯỚC 3 — Hỏi mục tiêu, mức độ và chốt mức kcal/ngày:
 Hỏi người dùng muốn GIỮ CÂN, TĂNG CÂN hay GIẢM CÂN. Có thể gợi ý mục tiêu phù hợp dựa trên phân loại BMI vừa tính (ví dụ BMI thiếu cân → gợi ý cân nhắc tăng cân; BMI thừa cân/béo phì → gợi ý cân nhắc giảm cân) nhưng LUÔN để người dùng tự quyết định, không áp đặt. Nếu tăng/giảm cân, hỏi thêm mức độ mong muốn (nhẹ/vừa/nhiều), có thể gợi ý mức phù hợp dựa trên thể trạng/BMI người dùng (ví dụ BMI ở mức béo phì, mới tập, sức khỏe yếu, người lớn tuổi → nên chọn mức nhẹ hơn) nhưng để người dùng tự quyết định. Áp dụng % trên TDEE:
@@ -302,6 +320,12 @@ function adminSaveSystemPrompt(text) {
   }
   PropertiesService.getScriptProperties().setProperty('SYSTEM_PROMPT_OVERRIDE', text);
   return { ok: true };
+}
+
+/** Xóa bản ghi đè System Prompt — quay lại dùng đúng hằng số SYSTEM_PROMPT mới nhất trong Code.gs. */
+function adminResetSystemPrompt() {
+  PropertiesService.getScriptProperties().deleteProperty('SYSTEM_PROMPT_OVERRIDE');
+  return { ok: true, systemPrompt: SYSTEM_PROMPT };
 }
 
 function adminSaveKnowledgeBase(text) {
