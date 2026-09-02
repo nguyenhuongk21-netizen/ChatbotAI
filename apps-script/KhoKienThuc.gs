@@ -1211,6 +1211,21 @@ Tư thế này cũng không phù hợp với những người bị thương ở 
 
 # DINH DƯỠNG — CÔNG THỨC TÍNH CALO VÀ BẢNG THAM KHẢO
 
+## Công thức tính BMI (Body Mass Index — chỉ số khối cơ thể)
+Chỉ áp dụng cho người trưởng thành từ 18 tuổi trở lên.
+BMI = cân nặng(kg) ÷ [chiều cao(m)]²
+Ví dụ: người nặng 60kg, cao 1,70m → BMI = 60 ÷ (1,7×1,7) = 20,8
+
+Bảng phân loại BMI (người trưởng thành):
+| BMI | Đánh giá |
+|---|---|
+| < 18,5 | Thiếu cân |
+| 18,5–24,9 | Bình thường |
+| 25,0–29,9 | Thừa cân |
+| ≥ 30 | Béo phì |
+
+Dùng BMI để tham khảo, gợi ý định hướng mục tiêu (thiếu cân → cân nhắc tăng cân; thừa cân/béo phì → cân nhắc giảm cân), nhưng luôn để người dùng tự quyết định mục tiêu của mình.
+
 ## Công thức tính BMR (Basal Metabolic Rate — năng lượng cơ bản khi nghỉ)
 Công thức Mifflin–St Jeor (1990, sai số trung bình ±5%, được xem là chính xác nhất cho người trưởng thành hiện đại):
 - Nam: BMR = 10 × cân nặng(kg) + 6,25 × chiều cao(cm) − 5 × tuổi + 5
