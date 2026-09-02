@@ -1226,8 +1226,8 @@ Hệ số hoạt động tham khảo:
 
 ## Điều chỉnh theo mục tiêu (dựa trên TDEE)
 - Giữ cân: giữ nguyên mức TDEE.
-- Giảm mỡ nhẹ, an toàn: TDEE trừ khoảng 300–500 kcal/ngày. KHÔNG đề xuất mức dưới ngưỡng an toàn tối thiểu (khoảng 1.200–1.500 kcal/ngày với người trưởng thành, tùy giới tính/thể trạng).
-- Tăng cơ nhẹ: TDEE cộng thêm khoảng 200–300 kcal/ngày.
+- Giảm cân: TDEE trừ 300 kcal/ngày. KHÔNG đề xuất mức dưới ngưỡng an toàn tối thiểu (khoảng 1.200–1.500 kcal/ngày với người trưởng thành, tùy giới tính/thể trạng) — nếu TDEE trừ 300 thấp hơn ngưỡng này, giữ ở mức an toàn tối thiểu thay vì trừ đủ 300.
+- Tăng cân: TDEE cộng thêm 300 kcal/ngày.
 
 ## Phân bổ 3 nhóm chất (macro) — tỉ lệ mặc định
 - Đạm (Protein): 25% tổng năng lượng → gram = (kcal × 25%) ÷ 4
