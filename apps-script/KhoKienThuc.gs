@@ -1208,4 +1208,139 @@ Tư thế chó cúi mặt là nền tảng của tư thế chó duỗi mình 3 c
 Từ tư thế này, bạn có thể chuyển sang tư thế chiến binh 2.
 Tránh thực hiện động tác chó 3 chân nếu bạn bị hội chứng ống cổ tay nặng hoặc đang mang thai 3 tháng cuối
 Tư thế này cũng không phù hợp với những người bị thương ở lưng, cánh tay hoặc vai, những người bị huyết áp cao, nhiễm trùng mắt hoặc tai trong
+
+# DINH DƯỠNG — CÔNG THỨC TÍNH CALO VÀ BẢNG THAM KHẢO
+
+## Công thức tính BMR (Basal Metabolic Rate — năng lượng cơ bản khi nghỉ)
+Công thức Mifflin–St Jeor (1990, sai số trung bình ±5%, được xem là chính xác nhất cho người trưởng thành hiện đại):
+- Nam: BMR = 10 × cân nặng(kg) + 6,25 × chiều cao(cm) − 5 × tuổi + 5
+- Nữ: BMR = 10 × cân nặng(kg) + 6,25 × chiều cao(cm) − 5 × tuổi − 161
+Đơn vị: kcal/ngày.
+
+## Công thức tính TDEE (Total Daily Energy Expenditure — tổng năng lượng tiêu hao/ngày)
+TDEE = BMR × Hệ số hoạt động
+Hệ số hoạt động tham khảo:
+- Ít vận động, công việc văn phòng: 1,3
+- Vận động vừa, tập thể dục 3–5 lần/tuần: 1,55
+- Vận động nhiều, tập luyện hằng ngày: 1,75
+
+## Điều chỉnh theo mục tiêu (dựa trên TDEE)
+- Giữ cân: giữ nguyên mức TDEE.
+- Giảm mỡ nhẹ, an toàn: TDEE trừ khoảng 300–500 kcal/ngày. KHÔNG đề xuất mức dưới ngưỡng an toàn tối thiểu (khoảng 1.200–1.500 kcal/ngày với người trưởng thành, tùy giới tính/thể trạng).
+- Tăng cơ nhẹ: TDEE cộng thêm khoảng 200–300 kcal/ngày.
+
+## Phân bổ 3 nhóm chất (macro) — tỉ lệ mặc định
+- Đạm (Protein): 25% tổng năng lượng → gram = (kcal × 25%) ÷ 4
+- Tinh bột (Carb): 50% tổng năng lượng → gram = (kcal × 50%) ÷ 4
+- Chất béo (Fat): 25% tổng năng lượng → gram = (kcal × 25%) ÷ 9
+(Có thể điều chỉnh tỉ lệ nếu người dùng có yêu cầu riêng, ví dụ ăn low-carb, tăng đạm khi tập nặng...)
+
+## Bảng năng lượng tiêu hao theo hoạt động thể thao (kcal/giờ, tham khảo cho người ~50kg)
+Cách quy đổi cho cân nặng khác: Calo thực tế = Calo trong bảng × (cân nặng của người dùng ÷ 50)
+
+| Hoạt động | Nhẹ (Low) | Trung bình (Moderate) | Nặng (High) |
+|---|---|---|---|
+| Đi bộ | 150 kcal/h (3 km/h) | 210 kcal/h (5 km/h) | 320 kcal/h (6.5 km/h) |
+| Chạy bộ | — | 400 kcal/h (8 km/h) | 550–700 kcal/h (10–12 km/h) |
+| Đạp xe | 180 kcal/h (10 km/h) | 300 kcal/h (15 km/h) | 500 kcal/h (20–25 km/h) |
+| Tập gym – tạ | 200 kcal/h (nhẹ, nghỉ nhiều) | 350 kcal/h (trung bình) | 500 kcal/h (liên tục, nặng) |
+| HIIT / Cardio cường độ cao | — | 450 kcal/h | 600–750 kcal/h |
+| Yoga | 150 kcal/h (Hatha, thư giãn) | 220 kcal/h (Vinyasa, Flow) | 300 kcal/h (Power yoga) |
+| Aerobic / Zumba | 250 kcal/h (chậm) | 400 kcal/h (vừa) | 550 kcal/h (nhanh, mạnh) |
+| Bơi lội | 250 kcal/h (chậm) | 400 kcal/h (vừa) | 600 kcal/h (nhanh) |
+| Leo cầu thang / leo núi | 300 kcal/h (chậm) | 450 kcal/h (vừa) | 650 kcal/h (nhanh, dốc cao) |
+| Nhảy dây | 300 kcal/h (chậm) | 500 kcal/h (vừa) | 700 kcal/h (nhanh) |
+| Đá bóng | 300 kcal/h (nhẹ) | 500 kcal/h (vừa) | 700 kcal/h (thi đấu) |
+| Cầu lông / Tennis | 200 kcal/h (nhẹ) | 350 kcal/h (vừa) | 500–600 kcal/h (mạnh) |
+| Khiêu vũ | 180 kcal/h (nhẹ) | 300 kcal/h (vừa) | 450 kcal/h (mạnh) |
+| Làm việc nhà | 120 kcal/h | 180 kcal/h | 250 kcal/h |
+| Trekking / đi bộ leo dốc | 250 kcal/h | 400 kcal/h | 600 kcal/h |
+| Chèo SUP / Kayak | 180 kcal/h | 300 kcal/h | 450 kcal/h |
+| Boxing / Muay / Kickfit | 300 kcal/h (kỹ thuật) | 500 kcal/h (thực hành) | 700 kcal/h (thi đấu) |
+| Pilates | 150 kcal/h | 250 kcal/h | 350 kcal/h |
+
+## Bảng dinh dưỡng thực phẩm (calo/protein/carb/fat theo 100g hoặc khẩu phần thông dụng)
+Nguồn: USDA và Viện Dinh Dưỡng Việt Nam, giá trị trung bình (có thể dao động ±5–10% tùy cách chế biến).
+
+### Nhóm Thịt – Cá – Trứng
+| Thực phẩm | Khẩu phần | Calo (kcal) | Protein (g) | Carb (g) | Fat (g) |
+|---|---|---|---|---|---|
+| Ức gà luộc | 100g | 165 | 31 | 0 | 3.6 |
+| Thịt bò nạc | 100g | 180 | 26 | 0 | 8 |
+| Thịt heo nạc | 100g | 145 | 27 | 0 | 5 |
+| Cá hồi | 100g | 208 | 20 | 0 | 13 |
+| Cá basa / cá thu | 100g | 180 | 20 | 0 | 10 |
+| Tôm luộc | 100g | 99 | 24 | 0.2 | 0.3 |
+| Trứng gà (1 quả ~50g) | 1 quả | 70 | 6 | 0.4 | 5 |
+| Đậu phụ (tàu hũ) | 100g | 76 | 8 | 2 | 4 |
+| Thịt ức vịt | 100g | 170 | 28 | 0 | 6 |
+| Thịt bò xay (15% mỡ) | 100g | 250 | 26 | 0 | 17 |
+
+### Nhóm Hạt – Ngũ cốc – Bánh
+| Thực phẩm | Khẩu phần | Calo (kcal) | Protein (g) | Carb (g) | Fat (g) |
+|---|---|---|---|---|---|
+| Hạnh nhân | 100g | 575 | 21 | 22 | 49 |
+| Óc chó | 100g | 654 | 15 | 14 | 65 |
+| Hạt điều | 100g | 553 | 18 | 30 | 44 |
+| Hạt chia | 100g | 486 | 16 | 42 | 31 |
+| Hạt bí | 100g | 559 | 30 | 11 | 49 |
+| Gạo trắng nấu chín | 100g | 130 | 2.7 | 28 | 0.3 |
+| Gạo lứt nấu chín | 100g | 111 | 2.6 | 23 | 0.9 |
+| Bánh mì nguyên cám | 1 lát (~30g) | 80 | 3 | 15 | 1 |
+| Yến mạch (khô) | 100g | 379 | 13 | 68 | 7 |
+| Khoai lang luộc | 100g | 90 | 2 | 21 | 0.1 |
+
+### Nhóm Rau – Củ – Quả
+| Thực phẩm | Khẩu phần | Calo (kcal) | Protein (g) | Carb (g) | Fat (g) |
+|---|---|---|---|---|---|
+| Bông cải xanh (luộc) | 100g | 35 | 3 | 7 | 0.4 |
+| Cà rốt | 100g | 41 | 0.9 | 10 | 0.2 |
+| Dưa leo | 100g | 15 | 0.6 | 3.6 | 0.1 |
+| Cà chua | 100g | 18 | 0.9 | 4 | 0.2 |
+| Rau cải bó xôi | 100g | 23 | 2.9 | 3.6 | 0.4 |
+| Bí đỏ | 100g | 26 | 1 | 7 | 0.1 |
+| Chuối | 100g | 89 | 1.1 | 23 | 0.3 |
+| Táo | 100g | 52 | 0.3 | 14 | 0.2 |
+| Cam | 100g | 47 | 0.9 | 12 | 0.1 |
+| Bơ (trái bơ) | 100g | 160 | 2 | 9 | 15 |
+
+### Nhóm Sữa – Sữa chua – Phô mai
+| Thực phẩm | Khẩu phần | Calo (kcal) | Protein (g) | Carb (g) | Fat (g) |
+|---|---|---|---|---|---|
+| Sữa tươi không đường | 100ml | 42 | 3.4 | 5 | 1 |
+| Sữa tươi có đường | 100ml | 60 | 3.2 | 8 | 1.6 |
+| Sữa chua không đường | 100g | 60 | 4 | 5 | 3 |
+| Sữa chua có đường | 100g | 90 | 3 | 14 | 2 |
+| Sữa chua Hy Lạp | 100g | 100 | 10 | 4 | 4 |
+| Phô mai lát | 1 lát (20g) | 70 | 4 | 0.5 | 6 |
+| Phô mai tươi (cottage cheese) | 100g | 98 | 11 | 3 | 4 |
+
+### Đồ uống – Nước trái cây – Sinh tố
+| Thức uống | Khẩu phần | Calo (kcal) | Protein (g) | Carb (g) | Fat (g) |
+|---|---|---|---|---|---|
+| Cà phê đen (không đường) | 1 cốc (240ml) | 2 | 0.3 | 0 | 0 |
+| Cà phê sữa (có đường) | 1 cốc (240ml) | 100–120 | 3 | 18 | 3 |
+| Nước cam ép (100%) | 100ml | 45 | 0.7 | 10 | 0 |
+| Nước táo ép | 100ml | 46 | 0.1 | 11 | 0 |
+| Sinh tố chuối sữa | 250ml | 150 | 5 | 25 | 3 |
+| Sinh tố bơ sữa | 250ml | 250 | 5 | 15 | 20 |
+| Nước dừa tươi | 100ml | 19 | 0.7 | 4 | 0.2 |
+| Trà xanh / trà đen (không đường) | 100ml | 1 | 0 | 0 | 0 |
+| Nước lọc | 100ml | 0 | 0 | 0 | 0 |
+
+## Mẹo nhớ nhanh mức calo trung bình theo nhóm thực phẩm (kcal/100g)
+- Thịt – cá – trứng: 150–220 (giàu protein, ít carb)
+- Hạt – ngũ cốc: 350–600 (nhiều năng lượng, giàu fat & carb)
+- Rau – củ – quả: 15–90 (ít calo, nhiều vitamin, chất xơ)
+- Sữa – sữa chua: 40–120 (cân bằng 3 nhóm chất)
+- Đồ uống: 0–250 (calo biến thiên lớn, chú ý đồ ngọt)
+
+## Ví dụ mẫu thực đơn 1 ngày (~2000 kcal, giữ cân) — tham khảo cách chia bữa
+- Bữa sáng (~500 kcal): 2 quả trứng luộc/ốp la, 2 lát bánh mì nguyên cám, 1 ly sữa không đường 200ml, ½ quả chuối/táo nhỏ.
+- Bữa phụ sáng (~150 kcal): 1 hộp sữa chua Hy Lạp không đường, 10–12 hạt hạnh nhân/óc chó.
+- Bữa trưa (~600 kcal): 150g ức gà áp chảo/cá hồi, 1 chén cơm gạo lứt (150g), rau luộc/salad lớn, 1 muỗng cà phê dầu ô liu.
+- Bữa phụ chiều (~200 kcal, trước tập): 1 quả chuối/táo, 1 thìa bơ đậu phộng (10g) hoặc 1 thanh protein bar.
+- Bữa tối (~550 kcal): 120g thịt bò nạc/cá/đậu phụ, 1 chén nhỏ cơm trắng hoặc khoai lang (100–120g), rau xanh hấp/luộc, 1 chén canh rau.
+- Bữa phụ tối nếu còn đói (~100 kcal): 1 ly sữa tươi không đường 150–200ml hoặc ½ hộp sữa chua không đường.
+- Gợi ý thêm: uống đủ 2–2.5 lít nước/ngày; có thể hoán đổi ức gà ↔ cá hồi ↔ tôm ↔ đậu phụ để đỡ ngán; thay bánh mì bằng 40–50g yến mạch nếu thích ăn sáng kiểu fitness.
 `;
