@@ -1467,4 +1467,9 @@ Gợi ý chung: ưu tiên thực phẩm tươi, tự nhiên, hạn chế đồ �
 
 ## Vai trò của người hướng dẫn (giáo viên yoga)
 Truyền thống yoga rất coi trọng vai trò người thầy — không chỉ hướng dẫn đúng kỹ thuật tư thế mà còn đồng hành, quan sát, điều chỉnh cho từng học viên phù hợp với thể trạng riêng, và truyền cảm hứng để học viên duy trì luyện tập lâu dài. Đây cũng là lý do trung tâm luôn khuyến khích học viên trao đổi trực tiếp với huấn luyện viên để được hướng dẫn sát với nhu cầu cá nhân, thay vì chỉ tự tập theo lý thuyết.
+
+## Yoga hỗ trợ sức khỏe toàn diện — góc nhìn chung (KHÔNG dùng để tư vấn bệnh lý cụ thể)
+Luyện tập asana đều đặn giúp cơ thể mềm dẻo hơn, đầu óc minh mẫn, thư giãn hệ thần kinh, và góp phần duy trì sự cân bằng thể chất - tâm lý - cảm xúc. Nguyên tắc luyện tập trong yoga thường đi từ nhẹ đến sâu, từ vùng ngoại vi cơ thể (tay chân, cơ bắp lớn) trước rồi mới đến các vùng sâu hơn — không nóng vội, không gắng ép cơ thể. Một khía cạnh quan trọng của yoga là rèn cho tâm trí thái độ bình thản, chấp nhận thay vì phản ứng tiêu cực trước sự khó chịu hay mệt mỏi — chính sự bình thản này giúp quá trình phục hồi và thư giãn diễn ra tự nhiên hơn.
+
+**Lưu ý quan trọng khi trả lời:** đây là nguyên tắc mang tính triết lý/tổng quan để giải thích VÌ SAO yoga có lợi cho sức khỏe nói chung — TUYỆT ĐỐI không dùng phần này để đưa bài tập cụ thể cho bất kỳ bệnh lý, tình trạng sức khỏe đặc biệt nào (tim mạch, huyết áp, xương khớp...). Với các câu hỏi liên quan đến bệnh lý cụ thể, luôn áp dụng đúng quy tắc an toàn đã có ở mục "Giới hạn an toàn bắt buộc" (không chẩn đoán, không đưa bài tập cụ thể cho người có bệnh nền, khuyên gặp bác sĩ/đăng ký tư vấn 1-1 với huấn luyện viên, chuyển hotline).
 `;
