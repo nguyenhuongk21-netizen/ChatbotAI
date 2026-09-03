@@ -1284,6 +1284,72 @@ B3: Thở ra, gập người về phía trước, tựa ngực vào chiếc mề
 Yêu cầu: Thân trên tựa thoải mái vào chiếc mền, đổi bên chân bắt chéo sau khi tập xong.
 *Lưu ý: Nếu thấy đau hai bàn chân khi thực hành tư thế này, hãy lót bên dưới một chiếc mền. Nếu bị nhức đầu do stress hoặc đau nửa đầu, dùng băng che mắt.
 
+## 34. Tư thế chó úp mặt duỗi mình (Adhomukha Svanasana)
+Tác dụng: Là một trong những tư thế nền tảng của yoga, đem luồng máu tươi dồn về tim và não, tăng thể lực cho toàn thân, kéo giãn tứ chi và có tác dụng xoa dịu, trấn an tinh thần. Giúp tăng cảm giác tự tin, giảm nhức đầu và huyết áp cao, đem lại nguồn sinh lực mới cho cơ thể.
+Cách thực hiện:
+B1: Quỳ gối trên thảm, hai bàn tay và hai đầu gối chống xuống sàn, hai bàn tay đặt rộng bằng vai, hai bàn chân cách nhau khoảng 30-45cm.
+B2: Thở ra, nhấn hai lòng bàn tay xuống sàn, nhấc mông lên cao, đưa chân ra sau và duỗi thẳng hai chân, hai bàn chân song song và cách nhau bằng khoảng cách giữa hai bàn tay. Từ từ nâng gót chân lên rồi hạ xuống sàn.
+B3: Duỗi thẳng từng chân một, từ gót tới mông, kéo dài mặt trước mắt cá chân lên tới đùi. Nâng mông lên cao, mở rộng lồng ngực, đẩy xương ức về phía hai bàn tay. Thở ra, hạ thấp đầu xuống giữa hai cánh tay, giữ cổ mềm mại và thư giãn hai mắt.
+Yêu cầu: Người mới tập không nên giữ tư thế cuối cùng quá 30 giây, dần dần tăng thời gian lên 1 phút. Có thể dùng khối gạch yoga kê dưới bàn tay nếu cổ tay yếu hoặc vai bị cứng.
+*Lưu ý: KHÔNG thực hành tư thế này nếu đang bị tiêu chảy hoặc giãn tĩnh mạch. Người bị viêm khớp xương kèm sốt cao không nên tập. Nếu huyết áp cao hoặc hay bị nhức đầu tái đi tái lại, luôn tựa đầu lên khối gạch hoặc ghế đẩu khi thực hành.
+
+## 35. Tư thế gập đầu gối, ngửa mặt lên trên (Urdhvamukha Janu Sirsasana)
+Tác dụng: Giúp giảm đau lưng dưới và thắt lưng, giảm sự cứng đờ ở gáy, xoa bóp thận và các cơ quan vùng bụng, cải thiện chức năng sinh sản và vùng khung chậu, điều hòa kinh nguyệt.
+Cách thực hiện:
+B1: Ngồi ở tư thế chỗ dựa (Dandasana, mục 26). Gập đầu gối phải lại sao cho lòng bàn chân phải chạm đùi trái, gót chân phải tựa vào háng.
+B2: Dùng một chiếc đai yoga quàng qua lòng bàn chân trái (chân duỗi thẳng), nắm hai đầu đai bằng hai tay. Kéo đai và ưỡn thân trên lên, giữ lưng thẳng.
+B3: Duỗi thẳng hai cánh tay, ngửa đầu ra phía sau, mắt ngước nhìn lên. Nhấn đầu gối phải đang gập xuống sàn, kéo giãn cả hai cánh tay và cột sống. Giữ tư thế trong 20-30 giây, thở đều. Đổi bên và lặp lại.
+Yêu cầu: Không ngửa đầu quá xa ra sau; giữ vai thả lỏng, không gồng cứng.
+*Lưu ý: Tránh tập tư thế này nếu đang mệt, huyết áp thấp, nghẽn động mạch, nhức đầu do stress, đau nửa đầu, hoặc căng nhức mắt, mất ngủ hay tiêu chảy.
+
+## 36. Tư thế vặn người trên ghế tựa (Bharadvajasana trên ghế tựa)
+Tác dụng: Giúp cột sống dẻo dai hơn, giảm chứng viêm khớp lưng dưới, giảm sự cứng đờ ở cổ và vai, giảm viêm khớp gối, cải thiện tiêu hóa — phù hợp cho người lớn tuổi, người mới hồi phục sau bệnh hoặc chưa quen vặn người trên sàn.
+Cách thực hiện:
+B1: Ngồi nghiêng trên một bên ghế (ghế không có tay vịn), phía bên phải người tựa vào lưng ghế. Ngồi thẳng lưng, thở ra, hai tay nắm lấy mép ngoài của lưng ghế.
+B2: Mở khuỷu tay, đẩy mép phải của lưng ghế ra xa khỏi người (về phía sau), đồng thời kéo mép trái của lưng ghế về phía người. Thở ra trong lúc vặn người, không nín thở, mắt nhìn qua vai phải.
+B3: Giữ nguyên tư thế trong 20-30 giây, hai bàn chân để cách xa nhau và không nhấc khỏi mặt sàn. Đổi bên và lặp lại tư thế theo chiều ngược lại.
+Yêu cầu: Giữ hai bàn chân đặt vững trên sàn suốt quá trình vặn người, không xoay từ đầu gối.
+*Lưu ý: Tránh tập tư thế này khi bị nghẽn động mạch, huyết áp thấp hoặc cao, viêm cuống phổi, nhức đầu, đau nửa đầu, nhức mỏi mắt, tiêu chảy, mất ngủ, mệt mỏi, viêm khớp gối, hoặc trong lúc hành kinh.
+
+## 37. Tư thế kéo giãn thân trên (Bharadvajasana)
+Tác dụng: Tác động tới cột sống lưng và vùng thắt lưng, cải thiện tuần hoàn máu ở các cơ quan vùng bụng, tăng sự mềm dẻo toàn bộ cơ thể, hỗ trợ chữa viêm khớp, thoái hóa đốt sống cổ, thấp khớp gót chân, đầu gối, hông và vai.
+Cách thực hiện:
+B1: Ngồi trên một chiếc mền gấp lại, ở tư thế chỗ dựa (Dandasana). Gập hai đầu gối lại và đưa hai bàn chân về gần mông bên trái, mắt cá chân trái đặt lên lòng bàn chân phải, hai đầu gối ép sát nhau.
+B2: Đặt hai khối gạch yoga trên cạnh dài của chúng, một khối ở phía sau mông phải, khối kia ở cạnh đầu gối phải. Kéo giãn cột sống và hít vào.
+B3: Thở ra, xoay người qua phải. Đặt bàn tay phải lên khối gạch phía sau, bàn tay trái lên khối gạch ở cạnh bên. Ấn mạnh cả hai bàn tay xuống khối gạch, nâng cột sống và ngực lên. Thở ra, mắt nhìn qua vai phải. Không nín thở. Giữ tư thế trong 20-30 giây. Đổi bên và lặp lại.
+Yêu cầu: Hai đầu gối luôn ép sát nhau trong suốt tư thế, mắt và trí não giữ thư giãn.
+*Lưu ý: Không tập tư thế này nếu bị đau tim, huyết áp cao và thấp, đau nửa đầu, nhức đầu, nhức mỏi mắt nặng, cảm lạnh, xung huyết, hội chứng mệt mỏi kinh niên, trầm cảm, mất ngủ hay viêm khớp gối. Phụ nữ không tập lúc đang hành kinh.
+
+## 38. Tư thế kéo giãn thân trên và hai chân (Marichyasana)
+Tác dụng: Kết hợp hai kiểu tập truyền thống (gập người về phía trước và vặn người sang bên), giúp giảm chứng đau thắt lưng, thoái hóa đốt sống cổ, tăng tuần hoàn máu vùng bụng, cải thiện tiêu hóa, giảm đầy hơi, hỗ trợ chữa thoát vị, tăng cường chức năng gan và thận.
+Cách thực hiện:
+B1: Ngồi trên một chiếc mền gấp lại, ở tư thế chỗ dựa (Dandasana). Đặt một khối gạch yoga phía sau lưng. Gập đầu gối phải lại, bàn chân phải vuông góc với sàn nhà, gót chân phải chạm hông. Giữ chân trái duỗi thẳng.
+B2: Gập khuỷu tay phải lại, tựa phần trên cánh tay phải vào mặt trong cẳng chân phải. Bàn tay trái đặt lên khối gạch phía sau lưng, vẫn giữ cánh tay trái thẳng. Áp chặt cánh tay phải và đầu gối phải vào nhau, ép lòng bàn tay trái xuống khối gạch.
+B3: Ưỡn thân trên, thở ra, và xoay sang trái. Chân đang gập không được nghiêng ngả, giữ khoảng cách giữa cánh tay phải và đầu gối phải sát nhau, không có khoảng trống. Nhìn qua vai trái. Giữ tư thế trong 20-30 giây. Đổi bên và lặp lại.
+Yêu cầu: Giữ đầu, mắt và cổ bất động trong suốt tư thế; lòng bàn tay trên khối gạch mở ra.
+*Lưu ý: Không tập tư thế này nếu bị đau tim, huyết áp cao hay thấp, đau nửa đầu, nhức đầu, cảm lạnh hoặc bị xung huyết ở ngực, hội chứng mệt mỏi kinh niên, mất ngủ, trầm cảm, hoặc viêm khớp gối. Phụ nữ không tập lúc đang hành kinh.
+
+## 39. Tư thế anh hùng, nằm ngửa (Supta Virasana)
+Tác dụng: Là thế tập ít nặng hơn tư thế truyền thống, giúp trấn an tâm trí bồn chồn, kích động, đem lại trạng thái tinh thần tốt cho buổi tập. Giảm bớt mệt mỏi, kích thích hoạt động của toàn bộ cơ thể, mở rộng lồng ngực nên đặc biệt có lợi cho tim. Nên thực hành ngay đầu buổi tập yoga.
+Cách thực hiện:
+B1: Quỳ gối trong tư thế anh hùng (Virasana, mục 27), đặt một chiếc gối ôm ngay sau lưng, một đầu gối ôm chạm vào mông. Đặt các ngón tay xuống sàn, bên cạnh các ngón chân, mặt trong hai bàn chân ép sát hông.
+B2: Nhấn hai lòng bàn tay xuống sàn, gập hai khuỷu tay lại, từ từ hạ thấp thân người xuống gối ôm. Chống từng khuỷu tay và hạ lưng xuống sàn. Giữ hai đầu gối thật chắc trên sàn để tránh căng ở vùng khung chậu và đùi.
+B3: Khi đã hạ lưng lên trên gối ôm, tựa phần sau đầu lên một chiếc mền gấp lại. Mở hết lồng ngực, nhấn bả vai xuống gối ôm để nâng lồng ngực lên. Kéo duỗi các ngón chân và mắt cá chân về phía chiếc gối ôm, ép hai đùi sát vào nhau.
+B4: Giang hai cánh tay sang hai bên, lòng bàn tay ngửa lên, thả lỏng cổ họng. Giữ tư thế ban đầu trong 1 phút, dần dần tăng lên 5-10 phút.
+Yêu cầu: Không nhấc vai lên khỏi sàn; hai đùi luôn ép sát nhau trong suốt tư thế.
+*Lưu ý: Không tập tư thế này nếu đang đau lưng dưới, viêm họng, tắc nghẽn một phần động mạch, hoặc mới hồi phục sau phẫu thuật — với các trường hợp này chỉ nên tập dưới sự hướng dẫn trực tiếp của huấn luyện viên.
+
+## 40. Tư thế xác chết (Savasana)
+Tác dụng: Là tư thế thư giãn kết thúc buổi tập yoga, giúp loại bỏ mệt mỏi cả về thể xác lẫn tinh thần, xoa dịu hệ thần kinh giao cảm, giảm huyết áp cao, giảm đau nửa đầu do stress, cải thiện giấc ngủ. Sự bất động trong tư thế này không phải là thụ động, mà là sự buông bỏ có ý thức, cho phép năng lượng và hơi thở đều, êm luân chuyển khắp cơ thể.
+Cách thực hiện:
+B1: Trải chiếu xuống sàn. Đặt một chiếc gối ôm lên chiếu (chiều dài gối ôm song song với chiều dài chiếu). Ngồi ở tư thế chỗ dựa, một đầu gối ôm chạm vào mông, đặt một chiếc mền lên đầu kia của gối ôm.
+B2: Từ từ hạ lưng xuống, từng đốt sống một, cho tới khi đầu tựa ngay ngắn trên chiếc mền đã gấp lại. Mông nằm cân bằng ở chính giữa chiếu. Giang hai cánh tay sang hai bên, lòng bàn tay ngửa lên và đặt chúng xuống sàn.
+B3: Duỗi thẳng hai chân và kéo giãn chúng sang hai bên đều nhau, không cần kéo căng eo. Thở ra, hướng ý thức vào hơi thở, sau đó nâng và kéo giãn cơ hoành, không để nó bị căng thẳng. Hai cánh tay giữ ở khoảng cách thoải mái so với cơ thể.
+B4: Hơi thở giữ cho đều và nhẹ nhàng nhưng không thở sâu. Để tròng mắt thu về hố mắt và thư giãn, thả lỏng cơ bắp mặt và hàm, không nghiến răng lại. Giữ tư thế này trong 5-10 phút.
+Thoát khỏi tư thế: Đưa hai cánh tay về hai bên người, hai chân để sát cạnh nhau, nhẹ nhàng lăn người sang phải, rồi khỏi gối ôm, tựa đầu lên lòng bàn tay phải. Hai đầu gối hơi cong lại. Nghỉ vài giây trước khi từ từ chống bàn tay trái và ngồi dậy.
+Yêu cầu: Không thực hành quá 1 lần trong một buổi tập, luôn đặt ở cuối buổi.
+*Lưu ý: Người mới tập nên tập Savasana không cần dụng cụ nâng đỡ trong khoảng 5 tuần lễ đầu, mỗi lần giữ tư thế khoảng 5 phút, trước khi chuyển sang dùng thêm dụng cụ hỗ trợ. Nếu bị cảm lạnh hoặc hen suyễn, nên kê cao đầu và ngực để hơi thở thoải mái hơn.
+
 # DINH DƯỠNG — CÔNG THỨC TÍNH CALO VÀ BẢNG THAM KHẢO
 
 ## Công thức tính BMI (Body Mass Index — chỉ số khối cơ thể)
