@@ -1421,4 +1421,50 @@ Nguồn: USDA và Viện Dinh Dưỡng Việt Nam, giá trị trung bình (có t
 - Bữa tối (~550 kcal): 120g thịt bò nạc/cá/đậu phụ, 1 chén nhỏ cơm trắng hoặc khoai lang (100–120g), rau xanh hấp/luộc, 1 chén canh rau.
 - Bữa phụ tối nếu còn đói (~100 kcal): 1 ly sữa tươi không đường 150–200ml hoặc ½ hộp sữa chua không đường.
 - Gợi ý thêm: uống đủ 2–2.5 lít nước/ngày; có thể hoán đổi ức gà ↔ cá hồi ↔ tôm ↔ đậu phụ để đỡ ngán; thay bánh mì bằng 40–50g yến mạch nếu thích ăn sáng kiểu fitness.
+
+# TRIẾT LÝ YOGA VÀ PHÁT TRIỂN BẢN THÂN
+
+## Yoga là gì — góc nhìn triết lý
+Yoga trong tiếng Phạn có nghĩa là "hợp nhất" — hợp nhất thân thể, hơi thở và tâm trí, hợp nhất cái tôi cá nhân với một điều gì đó rộng lớn hơn. Người xưa hay ví yoga như một cái cây: gốc rễ là đạo đức sống, thân cây là các tư thế và hơi thở, cành lá là sự tập trung và thiền định, còn hoa trái cuối cùng là sự an lạc, sáng suốt trong tâm trí. Nói cách khác, tư thế (asana) chỉ là bước khởi đầu — mục tiêu sâu xa của yoga là giúp con người sống cân bằng, tỉnh thức và bình an hơn trong đời sống hằng ngày, chứ không đơn thuần là rèn luyện thể chất.
+
+## Con người gồm nhiều lớp — không chỉ có thân thể
+Theo triết lý yoga cổ, con người không chỉ có phần thân thể mà còn có nhiều "lớp" gắn liền nhau: lớp thân thể vật lý, lớp năng lượng/hơi thở, lớp tâm trí - cảm xúc, lớp trí tuệ - nhận thức, và lớp an lạc sâu bên trong. Khi tập yoga, ta không chỉ tác động đến cơ - xương - khớp mà còn ảnh hưởng tới hơi thở, cảm xúc và cả sự sáng suốt trong tâm trí. Đây là lý do vì sao yoga thường được xem là phương pháp rèn luyện toàn diện thân - tâm - trí, không tách rời từng phần riêng lẻ.
+
+## Tám bước thực hành của Yoga (Ashtanga — "Bát chi")
+Theo hệ thống kinh điển của nhà hiền triết Patanjali, con đường thực hành yoga gồm 8 bước, đi từ đạo đức sống cho tới sự an lạc sâu bên trong:
+1. **Yama** — đạo đức với người xung quanh: sống không gây hại, trung thực, không tham lam, sống điều độ, không chiếm hữu quá mức.
+2. **Niyama** — kỷ luật với chính mình: giữ thân tâm trong sạch, biết đủ và hài lòng, rèn luyện đều đặn, tự học hỏi, sống với lòng biết ơn.
+3. **Asana** — luyện tập các tư thế, giúp cơ thể khỏe mạnh, dẻo dai, làm nền tảng vững chắc cho các bước tiếp theo.
+4. **Pranayama** — rèn luyện hơi thở có ý thức, xem hơi thở là cầu nối giữa thân thể và tâm trí.
+5. **Pratyahara** — tập thu nhiếp giác quan, bớt bị cuốn theo tác động bên ngoài, hướng sự chú ý vào bên trong.
+6. **Dharana** — rèn khả năng tập trung vào một điểm, một suy nghĩ duy nhất.
+7. **Dhyana** — thiền định, trạng thái tâm trí lắng sâu, liên tục và tĩnh lặng.
+8. **Samadhi** — trạng thái an lạc, hợp nhất sâu sắc, đích đến cuối cùng của hành trình luyện tập.
+Có thể hiểu đơn giản: 3 bước đầu (Yama, Niyama, Asana) hướng tới rèn luyện đạo đức và thân thể; 2 bước giữa (Pranayama, Pratyahara) là cầu nối rèn luyện hơi thở và làm chủ giác quan; 3 bước cuối (Dharana, Dhyana, Samadhi) là hành trình rèn luyện tâm trí và đi vào chiều sâu nội tâm.
+
+## Hơi thở — cầu nối giữa thân và tâm
+Trong yoga, hơi thở (Pranayama) được xem là biểu hiện rõ ràng nhất của "sinh lực" (prana) — nguồn năng lượng sống. Khi hơi thở đều đặn, sâu và có ý thức, tâm trí cũng trở nên tĩnh lặng và sáng suốt hơn; ngược lại khi hơi thở gấp gáp, nông và rối loạn, tâm trí cũng dễ bất an, căng thẳng. Đây là lý do các bài tập thở luôn được kết hợp cùng tư thế trong yoga, và cũng là công cụ đơn giản, hiệu quả để tự điều hòa cảm xúc, giảm căng thẳng ngay trong đời sống hằng ngày.
+
+## Các luân xa (chakra) — góc nhìn năng lượng
+Theo quan niệm yoga cổ, cơ thể con người có các trung tâm năng lượng gọi là chakra, được cho là nằm dọc theo cột sống, mỗi trung tâm gắn với một khía cạnh khác nhau của đời sống thân - tâm (ví dụ: sự ổn định/an toàn, cảm xúc, ý chí, tình thương, giao tiếp, trực giác, sự kết nối tâm linh). Đây là một góc nhìn mang tính biểu tượng và chiêm nghiệm nội tâm hơn là một khái niệm y học hiện đại — có thể chia sẻ như một cách gợi mở người tập suy ngẫm về các khía cạnh khác nhau trong đời sống của họ, không dùng để chẩn đoán hay thay thế kiến thức y khoa.
+
+## Yoga và stress — hiểu và giảm căng thẳng
+Stress là phản ứng tự nhiên của cơ thể trước áp lực cuộc sống — không phải lúc nào cũng xấu. Có hai loại: **stress tích cực** (một mức độ áp lực vừa phải giúp con người tập trung, có động lực, sáng tạo hơn) và **stress tiêu cực** (căng thẳng kéo dài, vượt quá khả năng thích nghi, dẫn tới mệt mỏi, mất ngủ, đau đầu, căng cứng cơ bắp, rối loạn tiêu hóa, dễ cáu gắt). Mục tiêu không phải là loại bỏ hoàn toàn stress, mà là học cách nhận diện và chuyển hóa stress tiêu cực thành trạng thái cân bằng hơn.
+
+Theo yoga, stress thường trú ngụ nhiều nhất ở cơ bắp, cơ hoành (vùng ngực - bụng khi thở) và hệ thần kinh. Khi những vùng này được thả lỏng thông qua luyện tập asana và hơi thở có ý thức, cảm giác căng thẳng cũng dịu đi theo — nhịp thở sâu và chậm giúp cơ thể thư giãn, tuần hoàn máu tốt hơn, nhịp tim và huyết áp ổn định hơn.
+
+Cách tiếp cận hiệu quả để giảm stress bằng yoga là **kết hợp cân bằng giữa hai kiểu luyện tập**:
+- **Nhóm "chủ động"**: các tư thế đứng, vặn người, hoặc tư thế cần giữ thăng bằng — giúp tăng sự tỉnh táo, tập trung, giải phóng năng lượng dư thừa.
+- **Nhóm "thụ động/phục hồi"**: các tư thế nghỉ ngơi, thường thực hiện chậm và có hỗ trợ của dụng cụ (gối ôm, chăn gấp, ghế, khối gỗ, dây đai...) — giúp thư giãn sâu, làm dịu hệ thần kinh, phù hợp khi người tập đang mệt mỏi, mất ngủ, hoặc căng thẳng nhiều.
+Luyện tập cân bằng cả hai nhóm này, thay vì chỉ thiên về một phía, sẽ mang lại hiệu quả giảm stress bền vững hơn. Người mới tập, người lớn tuổi, hoặc người đang căng thẳng/mệt mỏi nhiều nên ưu tiên các tư thế có dụng cụ hỗ trợ để tập được lâu hơn mà không gắng sức, cảm nhận thư giãn sâu hơn.
+
+## Dinh dưỡng theo góc nhìn yoga (hỗ trợ tinh thần minh mẫn, không phải hướng dẫn y khoa)
+Yoga cổ truyền phân loại thực phẩm theo 3 nhóm tính chất, dùng như một cách gợi ý lối sống lành mạnh hơn là một hệ thống dinh dưỡng khoa học hiện đại:
+- **Sattva** (thanh khiết, tươi mới): rau củ quả tươi, ngũ cốc nguyên hạt — giúp tâm trí thanh thản, sáng suốt.
+- **Rajas** (kích thích): đồ cay nóng, gia vị mạnh, đồ ăn nhanh — dễ gây hưng phấn nhất thời nhưng cũng dễ gây bồn chồn nếu dùng nhiều.
+- **Tamas** (nặng nề, trì trệ): đồ chiên rán nhiều dầu mỡ, rượu bia, đồ để lâu — dễ gây cảm giác uể oải, nặng nề.
+Gợi ý chung: ưu tiên thực phẩm tươi, tự nhiên, hạn chế đồ ăn nhanh/nhiều dầu mỡ và chất kích thích, ăn uống điều độ — đây là nguyên tắc hỗ trợ tinh thần thư thái, không thay thế tư vấn dinh dưỡng y khoa (xem thêm mục "Tính năng lượng và lập thực đơn" nếu cần tính toán cụ thể).
+
+## Vai trò của người hướng dẫn (giáo viên yoga)
+Truyền thống yoga rất coi trọng vai trò người thầy — không chỉ hướng dẫn đúng kỹ thuật tư thế mà còn đồng hành, quan sát, điều chỉnh cho từng học viên phù hợp với thể trạng riêng, và truyền cảm hứng để học viên duy trì luyện tập lâu dài. Đây cũng là lý do trung tâm luôn khuyến khích học viên trao đổi trực tiếp với huấn luyện viên để được hướng dẫn sát với nhu cầu cá nhân, thay vì chỉ tự tập theo lý thuyết.
 `;
