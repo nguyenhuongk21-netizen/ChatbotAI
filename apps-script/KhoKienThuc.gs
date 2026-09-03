@@ -1350,6 +1350,106 @@ Thoát khỏi tư thế: Đưa hai cánh tay về hai bên người, hai chân �
 Yêu cầu: Không thực hành quá 1 lần trong một buổi tập, luôn đặt ở cuối buổi.
 *Lưu ý: Người mới tập nên tập Savasana không cần dụng cụ nâng đỡ trong khoảng 5 tuần lễ đầu, mỗi lần giữ tư thế khoảng 5 phút, trước khi chuyển sang dùng thêm dụng cụ hỗ trợ. Nếu bị cảm lạnh hoặc hen suyễn, nên kê cao đầu và ngực để hơi thở thoải mái hơn.
 
+## 41. Tư thế rắn hổ mang (Bhujangasana)
+Tác dụng: Tăng cường sức mạnh cột sống, mở rộng lồng ngực và vai, cải thiện tư thế, giảm căng cứng lưng dưới do ngồi nhiều. Kích thích các cơ quan vùng bụng, hỗ trợ tiêu hóa. Là tư thế backbend nền tảng, thường dùng làm bước chuyển tiếp trong các chuỗi động tác chào mặt trời.
+Cách thực hiện:
+B1: Nằm sấp trên sàn, hai chân duỗi thẳng ra sau, mu bàn chân áp xuống sàn. Đặt hai lòng bàn tay xuống sàn ngay dưới vai, khuỷu tay gập sát vào thân người.
+B2: Hít vào, ấn hai lòng bàn tay xuống sàn, từ từ nâng đầu, ngực và phần bụng trên lên khỏi sàn. Giữ khuỷu tay hơi cong (không duỗi thẳng hoàn toàn nếu mới tập), xương chậu và phần bụng dưới vẫn chạm sàn.
+B3: Kéo hai bả vai xuống và ra sau, mở rộng lồng ngực, kéo dài cổ, mắt nhìn về phía trước hoặc hơi chếch lên. Giữ tư thế trong vài nhịp thở.
+B4: Thở ra, từ từ hạ ngực và đầu xuống sàn, thư giãn.
+Yêu cầu: Không nâng vai lên gần tai, không dồn lực vào lưng dưới — lực nâng chủ yếu đến từ cơ lưng và cánh tay.
+*Lưu ý: Không thực hành nếu vừa phẫu thuật vùng bụng, thoát vị đĩa đệm nặng, hoặc đang mang thai. Người đau lưng dưới nên tập ở biên độ nhẹ, không cố nâng cao.
+
+## 42. Tư thế chó ngửa mặt (Urdhva Mukha Svanasana)
+Tác dụng: Tăng cường sức mạnh cột sống, cổ tay và cánh tay, mở rộng lồng ngực và vai, cải thiện tư thế gù lưng. Thường dùng trong chuỗi Chào mặt trời (Surya Namaskar) và các bài tập vinyasa nối tiếp giữa Tấm ván thấp và Chó úp mặt.
+Cách thực hiện:
+B1: Nằm sấp, hai lòng bàn tay đặt xuống sàn ngay cạnh hông, các ngón tay xòe rộng, mu bàn chân áp xuống sàn.
+B2: Hít vào, ấn hai lòng bàn tay xuống sàn, duỗi thẳng hai cánh tay, nâng toàn bộ thân người, hông và đùi lên khỏi sàn — chỉ hai lòng bàn tay và mu bàn chân chạm sàn.
+B3: Mở rộng lồng ngực, kéo hai bả vai xuống và vào trong, đùi hơi xoay vào trong, chân duỗi thẳng và khỏe. Mắt nhìn về phía trước hoặc hơi ngước lên, cổ giữ dài.
+B4: Giữ vài nhịp thở, sau đó thở ra và hạ người xuống hoặc chuyển tiếp sang tư thế chó úp mặt.
+Yêu cầu: Vai giữ thẳng trên cổ tay, không so vai lên tai; đùi và đầu gối không chạm sàn.
+*Lưu ý: Không tập nếu bị hội chứng ống cổ tay, chấn thương cổ tay/vai, hoặc thoát vị đĩa đệm nặng ở lưng dưới. Phụ nữ mang thai nên tránh hoặc tham khảo huấn luyện viên trước khi tập.
+
+## 43. Tư thế tấm ván thấp (Chaturanga Dandasana)
+Tác dụng: Tăng cường sức mạnh toàn thân, đặc biệt là cơ tay, vai, ngực, bụng và lưng. Là tư thế chuyển tiếp quan trọng trong hầu hết các chuỗi vinyasa, giúp rèn luyện sự ổn định và kiểm soát cơ thể.
+Cách thực hiện:
+B1: Bắt đầu từ tư thế tấm ván (plank) cao, hai tay chống thẳng xuống sàn ngay dưới vai, thân người tạo thành một đường thẳng từ đầu tới gót chân.
+B2: Hít vào, giữ thân người ổn định. Thở ra, từ từ gập khuỷu tay ra sau (không xòe ra hai bên), hạ thấp thân người xuống cho tới khi cánh tay trên tạo góc khoảng 90 độ so với sàn, khuỷu tay ngang thân người.
+B3: Giữ bụng siết chặt, xương chậu không võng xuống hay nhô lên, toàn thân vẫn giữ thành một đường thẳng. Mắt nhìn xuống sàn.
+B4: Có thể hạ đầu gối xuống sàn nếu chưa đủ sức giữ toàn thân, đây là biến thể phù hợp cho người mới tập.
+Yêu cầu: Không hạ thấp hơn mức khuỷu tay ngang vai; không để vai nhô ra trước quá cổ tay.
+*Lưu ý: Không tập nếu bị chấn thương cổ tay, vai, hoặc khuỷu tay. Người mới tập nên hạ đầu gối xuống sàn để giảm tải, tránh tập tư thế đầy đủ khi cơ tay vai chưa đủ khỏe vì dễ gây chấn thương vai.
+
+## 44. Tư thế tấm ván nghiêng (Vasisthasana)
+Tác dụng: Tăng cường sức mạnh cơ vai, cánh tay, cổ tay và cơ liên sườn, cải thiện khả năng giữ thăng bằng, rèn luyện sự tập trung.
+Cách thực hiện:
+B1: Từ tư thế tấm ván cao, xoay người sang một bên, dồn trọng lượng lên một tay và cạnh ngoài của một bàn chân, hai bàn chân chồng lên nhau hoặc bàn chân trước đặt trước bàn chân sau để tạo điểm tựa vững.
+B2: Duỗi thẳng cánh tay đang chống, bàn tay đặt thẳng dưới vai. Nâng cánh tay còn lại lên cao, hướng lên trần nhà, mắt có thể nhìn theo tay hoặc nhìn về phía trước.
+B3: Giữ thân người thành một đường thẳng từ đầu tới gót chân, hông không võng xuống hay đẩy lên quá cao. Siết cơ bụng và đùi để giữ thăng bằng.
+B4: Giữ vài nhịp thở, sau đó hạ người trở lại tấm ván và đổi bên.
+Yêu cầu: Người mới tập có thể hạ đầu gối dưới xuống sàn để dễ giữ thăng bằng hơn.
+*Lưu ý: Không tập nếu bị chấn thương cổ tay hoặc vai, hội chứng ống cổ tay, hoặc huyết áp thấp gây chóng mặt khi đổi tư thế.
+
+## 45. Tư thế châu chấu (Salabhasana)
+Tác dụng: Tăng cường sức mạnh cơ lưng, mông và đùi sau, cải thiện tư thế, hỗ trợ giảm đau lưng dưới do ngồi nhiều, kích thích các cơ quan vùng bụng.
+Cách thực hiện:
+B1: Nằm sấp trên sàn, hai tay đặt xuôi theo thân người, lòng bàn tay úp xuống hoặc ngửa lên, trán chạm sàn, hai chân khép sát.
+B2: Hít vào, đồng thời nâng đầu, ngực, hai tay và hai chân lên khỏi sàn (biến thể nhẹ hơn: chỉ nâng phần thân trên hoặc chỉ nâng hai chân). Giữ cổ dài, mắt nhìn xuống sàn để tránh gập cổ ra sau quá mức.
+B3: Siết cơ mông và đùi sau, kéo dài hai chân về phía sau, hai tay vươn về phía sau theo thân người hoặc duỗi thẳng về phía trước.
+B4: Giữ tư thế vài nhịp thở, sau đó thở ra và hạ người xuống sàn, nghỉ ngơi.
+Yêu cầu: Người mới tập nên nâng thấp, tăng dần độ cao khi cơ lưng khỏe hơn, không cố gắng nâng cao gây căng cứng cổ.
+*Lưu ý: Không tập nếu bị chấn thương lưng dưới, thoát vị đĩa đệm, huyết áp cao, hoặc đang mang thai.
+
+## 46. Tư thế điều kỳ diệu (Camatkarasana)
+Tác dụng: Mở rộng lồng ngực, vai và hông, tăng cường sức mạnh cánh tay và chân, cải thiện sự linh hoạt của cột sống. Là tư thế backbend kết hợp giữa xoay người và mở ngực, thường dùng trong các chuỗi vinyasa năng động.
+Cách thực hiện:
+B1: Từ tư thế chó úp mặt hoặc tấm ván nghiêng, dồn trọng lượng lên một tay và cạnh bàn chân cùng bên.
+B2: Xoay thân người mở ra phía trước, nâng hông lên cao, chân còn lại gập gối và đặt cả bàn chân xuống sàn phía trước, đầu gối hướng lên trần.
+B3: Nâng cánh tay còn lại lên cao qua đầu, ngửa đầu ra sau nhẹ nhàng, mở rộng lồng ngực và ưỡn nhẹ cột sống, tạo thành một đường cong mềm mại.
+B4: Giữ vài nhịp thở, cảm nhận sự mở rộng ở ngực và vai, sau đó trở về tư thế ban đầu và đổi bên.
+Yêu cầu: Giữ vai của tay đang chống thẳng trên cổ tay, không để sập vai; siết nhẹ cơ bụng để bảo vệ lưng dưới.
+*Lưu ý: Không tập nếu bị chấn thương cổ tay, vai, hoặc cổ; tránh ngửa đầu ra sau quá mức nếu có vấn đề về cổ hoặc huyết áp.
+
+## 47. Tư thế em bé hạnh phúc (Ananda Balasana)
+Tác dụng: Kéo giãn nhẹ nhàng vùng hông, háng và lưng dưới, thư giãn cột sống sau các bài tập backbend hoặc vặn người, xoa dịu hệ thần kinh, giảm căng thẳng.
+Cách thực hiện:
+B1: Nằm ngửa trên sàn, hít vào và gập hai đầu gối lại, kéo về phía ngực.
+B2: Đưa hai tay ra ngoài, nắm lấy mép ngoài của hai bàn chân (hoặc mắt cá chân/ống chân nếu chưa với tới bàn chân), lòng bàn chân hướng lên trần nhà.
+B3: Mở rộng hai đầu gối ra hai bên rộng hơn thân người một chút, kéo nhẹ hai đầu gối về phía sàn, gần nách. Giữ lưng dưới và xương cụt áp sát sàn.
+B4: Có thể giữ yên hoặc lắc nhẹ người sang hai bên để xoa bóp lưng. Giữ tư thế trong 30 giây tới vài phút, thở đều và thả lỏng vai, cổ.
+Yêu cầu: Giữ đầu và vai thư giãn trên sàn, không gồng cổ để nhìn xuống.
+*Lưu ý: Phụ nữ mang thai (đặc biệt tam cá nguyệt cuối) và người mới phẫu thuật vùng bụng/háng nên tránh hoặc tập với biên độ rất nhẹ.
+
+## 48. Tư thế con quạ (Bakasana)
+Tác dụng: Tăng cường sức mạnh cổ tay, cánh tay và cơ bụng, cải thiện khả năng giữ thăng bằng và sự tập trung, xây dựng sự tự tin khi đối diện với tư thế thăng bằng tay.
+Cách thực hiện:
+B1: Ngồi xổm, hai bàn chân chụm gần nhau, hai bàn tay đặt xuống sàn phía trước, rộng bằng vai, các ngón tay xòe rộng.
+B2: Gập khuỷu tay nhẹ, đặt hai đầu gối tựa vào phía sau hai bắp tay trên (gần nách), càng cao càng tốt.
+B3: Từ từ nghiêng trọng tâm về phía trước, nhấc từng bàn chân một khỏi sàn, giữ thăng bằng trên hai tay. Siết cơ bụng, hai bàn chân có thể chạm nhau ở phía sau.
+B4: Mắt nhìn về phía trước (không nhìn xuống) để giữ thăng bằng tốt hơn. Giữ vài nhịp thở, sau đó hạ chân xuống từ từ để thoát thế.
+Yêu cầu: Nên tập gần một tấm đệm hoặc chăn ở phía trước để đảm bảo an toàn khi mới tập; luôn khởi động cổ tay kỹ trước khi tập.
+*Lưu ý: Không tập nếu bị chấn thương cổ tay hoặc hội chứng ống cổ tay. Người mới tập nên có huấn luyện viên hỗ trợ trực tiếp để tránh té ngã về phía trước.
+
+## 49. Trồng chuối bằng đầu (Sirsasana)
+Tác dụng: Được xem là một trong những tư thế quan trọng của yoga, giúp tăng cường sức mạnh vai, cổ và thân trên, cải thiện tuần hoàn máu, tăng sự tập trung. Đây là tư thế nâng cao, đòi hỏi sức mạnh và sự ổn định tốt trước khi tập.
+Cách thực hiện:
+B1: Quỳ gối, đan các ngón tay vào nhau, đặt hai cẳng tay xuống sàn tạo thành hình tam giác, đỉnh đầu đặt xuống sàn, phần sau đầu tựa vào hai lòng bàn tay đan vào nhau.
+B2: Nâng hông lên cao, đi hai bàn chân về gần đầu hết mức có thể, giữ đầu gối thẳng nếu có thể.
+B3: Từ từ gập nhẹ đầu gối, dùng lực bụng và cẳng tay để nhấc hai chân lên khỏi sàn theo hướng thẳng đứng, giữ thăng bằng trên đỉnh đầu và hai cẳng tay — trọng lượng chủ yếu dồn vào hai cẳng tay, không dồn hết vào đầu và cổ.
+B4: Khi đã vững, từ từ duỗi thẳng hai chân lên trần nhà, siết cơ bụng và đùi để giữ thân người thẳng. Giữ tư thế trong thời gian ngắn khi mới tập, tăng dần theo thời gian.
+Yêu cầu: LUÔN tập tư thế này lần đầu và trong giai đoạn đầu dưới sự hướng dẫn và hỗ trợ trực tiếp của huấn luyện viên, tốt nhất là tập sát tường để đảm bảo an toàn.
+*Lưu ý: TUYỆT ĐỐI không tập nếu bị cao huyết áp, huyết áp thấp, các vấn đề về mắt (tăng nhãn áp, bong võng mạc), chấn thương cổ hoặc cột sống cổ, đau nửa đầu, hoặc đang mang thai. Đây là tư thế có rủi ro cao nếu tập sai kỹ thuật, không tự tập khi chưa được huấn luyện viên hướng dẫn trực tiếp và cho phép.
+
+## 50. Trồng cây chuối bằng tay (Adho Mukha Vrksasana)
+Tác dụng: Tăng cường sức mạnh vai, cánh tay, cổ tay và thân trên, cải thiện khả năng giữ thăng bằng, rèn luyện sự tập trung và lòng can đảm khi đối diện với thử thách.
+Cách thực hiện:
+B1: Đứng đối diện và cách tường khoảng một cánh tay, cúi người đặt hai lòng bàn tay xuống sàn, rộng bằng vai, các ngón tay xòe rộng bám chắc xuống sàn.
+B2: Bước một chân lại gần hai tay, chân còn lại đá nhẹ lên cao, dùng lực đẩy để nâng hông và hai chân lên tường, giữ hai tay duỗi thẳng và vai ngay trên cổ tay.
+B3: Khi hai chân đã chạm tường, từ từ duỗi thẳng người, siết cơ bụng và đùi, hai chân khép sát, đỉnh đầu hướng xuống sàn, mắt nhìn xuống giữa hai bàn tay.
+B4: Giữ tư thế trong thời gian ngắn khi mới tập, thở đều. Để thoát thế, từ từ hạ từng chân xuống trở lại sàn.
+Yêu cầu: Người mới tập luôn nên tập sát tường và có huấn luyện viên hỗ trợ; không tập giữa phòng khi chưa vững.
+*Lưu ý: Không tập nếu bị cao huyết áp, huyết áp thấp, chấn thương cổ tay/vai, các vấn đề về mắt, đau nửa đầu, hoặc đang mang thai. Đây là tư thế có rủi ro té ngã cao, chỉ nên tập khi đã được huấn luyện viên hướng dẫn trực tiếp và cho phép tự luyện thêm.
+
 # DINH DƯỠNG — CÔNG THỨC TÍNH CALO VÀ BẢNG THAM KHẢO
 
 ## Công thức tính BMI (Body Mass Index — chỉ số khối cơ thể)
