@@ -1209,6 +1209,36 @@ Từ tư thế này, bạn có thể chuyển sang tư thế chiến binh 2.
 Tránh thực hiện động tác chó 3 chân nếu bạn bị hội chứng ống cổ tay nặng hoặc đang mang thai 3 tháng cuối
 Tư thế này cũng không phù hợp với những người bị thương ở lưng, cánh tay hoặc vai, những người bị huyết áp cao, nhiễm trùng mắt hoặc tai trong
 
+## 26. Tư thế chỗ dựa (Dandasana)
+Tác dụng: Là nền tảng cho các tư thế ngồi gập người về phía trước, giúp cải thiện dáng ngồi. Đây là tư thế phù hợp cho người bị viêm, sưng đầu gối và mắt cá chân. Với người hay lo nghĩ, tâm trạng thất thường, luyện tập thường xuyên giúp tăng cường ý chí, ổn định cảm xúc.
+Cách thực hiện:
+B1: Ngồi trên sàn, hai chân duỗi thẳng về phía trước. Dùng hai tay kéo phần thịt mông sang hai bên sao cho ngồi lên đúng xương ngồi (không ngồi đè lên phần thịt mông). Giữ đùi, đầu gối, mắt cá chân và hai bàn chân sát cạnh nhau.
+B2: Đặt hai lòng bàn tay xuống sàn cạnh hông, các ngón tay hướng về phía trước, ưỡn cao ngực, cố định và duỗi thẳng hai cánh tay.
+B3: Xiết chặt cơ tứ đầu đùi, kéo chúng về phía háng, nhấn đùi xuống sàn và chống lại lực ép này bằng cách nâng eo lên, giữ cho cơ hoành không bị căng thẳng, nâng xương sườn và giữ cột sống thật vững.
+B4: Giữ đầu, cổ và mông thẳng hàng trên một đường thẳng. Giữ nguyên tư thế 20-30 giây, thở đều.
+Yêu cầu: Thư giãn cơ mặt và mắt, mở rộng lòng bàn chân, không để bụng xệ xuống.
+*Lưu ý: Nếu cột sống có xu hướng bị cong, hoặc đang lên cơn hen suyễn nghiêm trọng, hãy để cột sống tựa vào tường khi tập.
+
+## 27. Tư thế anh hùng (Virasana)
+Tác dụng: Đem lại sức mạnh và sự dẻo dai, làm nở nang lồng ngực giúp hít thở sâu hơn, giảm bớt cứng nhắc trong các khớp xương, cải thiện độ mềm dẻo của toàn cơ thể.
+Cách thực hiện:
+B1: Quỳ trên sàn, hai đầu gối chụm vào nhau, hai bàn chân cách nhau khoảng 0,5m, các ngón chân đều nằm trên sàn.
+B2: Cúi người về phía trước, đặt hai lòng bàn tay lên cẳng chân, hạ mông xuống thấp dần, sao cho mép trong mỗi bắp chân chạm vào phía ngoài mỗi bắp đùi; xoay hai bắp chân ra phía ngoài và hướng cơ bắp đùi vào trong.
+B3: Đặt mông xuống sàn nhà — đừng ngồi lên hai bàn chân. Hai lòng bàn tay để lên đùi, sát cạnh đầu gối. Trọng lượng cơ thể dồn lên bắp đùi, nâng eo và hai bên thân trên lên, ép cẳng chân xuống sàn.
+Người mới tập: nếu chưa thể hạ mông xuống sàn, đặt lòng bàn tay lên hai đầu gối và kéo đùi xuống dưới, hoặc ngồi lên một tấm đệm/gối kê phía dưới.
+Yêu cầu: Các ngón chân đều phải nằm trên sàn nhà, hai cánh tay duỗi thẳng khi ở tư thế cơ bản.
+*Lưu ý: Nếu dây chằng ở đầu gối đang bị thương, hãy dùng một tấm trải để lót chân, hoặc ngồi lên gót chân thay vì hạ hẳn mông xuống sàn. KHÔNG thực hiện tư thế này nếu bạn mắc bệnh tim.
+
+## 28. Tư thế góc cố định (Baddhakonasana)
+Tác dụng: Thực hành thường xuyên giúp tăng lưu thông máu tới bụng, khung chậu và lưng; hỗ trợ giảm nhẹ các chứng viêm khớp đầu gối, khớp hông, khớp chậu; hỗ trợ điều hòa kinh nguyệt. Tài liệu có ghi nhận phụ nữ mang thai giữ tư thế này vài phút mỗi ngày có thể giảm bớt khó chịu khi sinh nở và ít gặp chứng giãn tĩnh mạch hơn — đây là thông tin tham khảo, không thay thế chỉ định của bác sĩ sản khoa, nếu đang mang thai nên hỏi ý kiến bác sĩ/huấn luyện viên trước khi tập.
+Cách thực hiện:
+B1: Ngồi ở tư thế chỗ dựa (Dandasana, xem mục 26). Co đầu gối phải lại, dùng hai bàn tay giữ gót chân và mắt cá chân phải, kéo bàn chân phải về phía háng, chân trái vẫn giữ thẳng trên sàn.
+B2: Co đầu gối trái theo cách tương tự, kéo bàn chân trái về phía háng cho tới khi hai lòng bàn chân chạm vào nhau và cả hai gót chân đều chạm háng, mép ngoài hai bàn chân ép xuống sàn.
+B3: Dùng hai bàn tay giữ chặt hai bàn chân ở cạnh các ngón chân, kéo hai gót chân lại gần háng hơn, kéo giãn cột sống lên phía trên, mở rộng đùi và đẩy cả hai đầu gối xuống sàn, mắt nhìn thẳng về phía trước. Giữ nguyên tư thế khoảng 30-60 giây, thở đều.
+B4 (nâng cao): đưa hai tay ra sau lưng, đặt hai lòng bàn tay xuống sàn với các ngón tay hướng về phía mông, kéo vai ra sau, giữ nguyên 30-60 giây, thở sâu.
+Yêu cầu: Giữ thẳng cổ, không nâng vai lên, thả lỏng vai và cổ trong suốt quá trình tập.
+*Lưu ý: KHÔNG thực hành tư thế này nếu đã cắt bỏ tử cung hoặc đang bị sa dạ con.
+
 # DINH DƯỠNG — CÔNG THỨC TÍNH CALO VÀ BẢNG THAM KHẢO
 
 ## Công thức tính BMI (Body Mass Index — chỉ số khối cơ thể)
