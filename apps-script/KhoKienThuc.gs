@@ -1239,6 +1239,51 @@ B4 (nâng cao): đưa hai tay ra sau lưng, đặt hai lòng bàn tay xuống s�
 Yêu cầu: Giữ thẳng cổ, không nâng vai lên, thả lỏng vai và cổ trong suốt quá trình tập.
 *Lưu ý: KHÔNG thực hành tư thế này nếu đã cắt bỏ tử cung hoặc đang bị sa dạ con.
 
+## 29. Tư thế ngồi xoạc rộng chân (Upavista Konasana)
+Tác dụng: Giúp giảm căng thẳng ở các cơ bắp vùng bụng, hỗ trợ giảm chứng viêm khớp hông và đau hông, xoa bóp các cơ quan thuộc hệ sinh sản, kích thích buồng trứng, hỗ trợ điều hòa kinh nguyệt và giảm các chứng đau liên quan đến kinh nguyệt.
+Cách thực hiện:
+B1: Ngồi ở tư thế chỗ dựa (Dandasana, mục 26), lưng thẳng đứng, ngồi trên xương mông. Chống hai bàn tay xuống sàn cạnh hông, các ngón tay hướng ra trước, mắt nhìn thẳng về phía trước.
+B2: Nhấn lòng bàn tay xuống sàn để đẩy thân trên lên. Thở ra, xoạc hai chân sang hai bên, càng rộng càng tốt, dùng hai bàn tay tuần tự kéo hai chân sang bên hơn nữa.
+B3: Đưa hai bàn tay ra phía sau mông, lòng bàn tay úp xuống đất, ép chặt gót chân và đùi xuống sàn. Nâng eo và hai bên sườn lên, xoay đùi ra trước sao cho xương bánh chè ngửa lên trần nhà, chuyển trọng lượng cơ thể từ mông sang vùng xương chậu, duỗi từng chân một từ đùi đến gót chân. Giữ tư thế 30-40 giây, thở đều.
+Yêu cầu: Các ngón chân hướng lên trần nhà, kéo giãn nhưng không làm căng cứng.
+*Lưu ý: Nếu bị hen suyễn, nên ngồi trên một chiếc mền đã gấp lại khi tập tư thế này.
+
+## 30. Tư thế kéo giãn lưng mạnh mẽ (Paschimottanasana)
+Tác dụng: Giảm chứng đau lưng dưới, làm mềm dẻo cột sống. Khi thực hành, asana này khiến đầu óc tỉnh táo, trấn an tinh thần, đem lại sinh lực cho toàn bộ cơ thể; giảm viêm khớp vai và khuỷu tay, cải thiện tuần hoàn máu ở cánh tay, tăng sức mạnh cho khớp khuỷu tay và eo; hai bàn chân và hai chân được nghỉ ngơi; hỗ trợ tình trạng không kềm được trong sự bài tiết.
+Cách thực hiện:
+B1: Ngồi ở tư thế chỗ dựa (Dandasana). Đặt hai chiếc gối ôm chồng lên nhau đặt ngang đầu gối. Các mắt cá chân, gót chân và ngón chân cái phải sát cạnh nhau. Duỗi hai cánh tay qua chồng gối và gập người ra phía trước, nắm lấy các ngón chân, giữ cả hai chân thật thẳng, ép đùi và đầu gối vào nhau.
+B2: Gập người từ phần chân cột sống và đẩy eo về phía trước. Vươn thân người về phía hai bàn chân, kéo giãn nó từ háng tới rốn. Giữ cho cơ bắp vùng bụng không bị co lại. Tựa hai khuỷu tay và trán lên chồng gối ôm, cơ bắp đùi và bắp chân duỗi hết ra.
+B3: Vươn cổ tới. Kéo cả hai vai ra sau và xuống thấp, ra xa khỏi tai. Tựa đều trán lên chồng gối ôm và không ngả đầu sang bên. Hai cánh tay duỗi thẳng, nhưng không kéo căng. Trong ý thức, hãy thư giãn cổ, mắt, tai. Thở đều và giữ tư thế trong 5 phút.
+Yêu cầu: Đặt hai cánh tay lên chồng gối ôm thoải mái, không để chúng nghiêng sang bên.
+*Lưu ý: KHÔNG tập tư thế này nếu bị hen suyễn, viêm cuống phổi, tiêu chảy hoặc thoái hóa đốt sống cổ.
+
+## 31. Tư thế chiếc thuyền trọn vẹn (Paripurna Navasana)
+Tác dụng: Thân hình mang dáng dấp một chiếc thuyền khi vào tư thế này. Rèn luyện cơ bắp và các cơ quan vùng bụng, đồng thời tác động tới cổ và kích thích tuyến giáp.
+Cách thực hiện:
+B1: Ngồi trên xương mông, hai chân duỗi thẳng, hai đầu gối gập lại. Nâng chân phải lên, đặt bắp chân phải lên ghế hoặc vật kê trước mặt. Hai đầu gối và hai bàn chân để sát cạnh nhau, nhấn gót chân xuống, lòng bàn tay úp xuống đùi.
+B2: Nâng chân trái lên, đặt cạnh chân phải theo cách tương tự, hai chân để sát nhau, ép sát mặt trong của hai bàn chân vào nhau.
+B3: Thở ra và đặt hai lòng bàn tay trở lại xuống sàn nhà. Nhấn chúng xuống sàn và ưỡn thân trên lên, rút hai bả vai vào trong, duỗi thẳng hai chân và nhấc hai bắp chân ra khỏi vật kê, đẩy nghiêng ra xa mông. Hai lòng bàn tay lại úp trở lại lên đùi, xoay cơ bắp đùi vào phía trong. Giữ tư thế này 1 phút, dần dần tăng thời gian lên 5 phút.
+Yêu cầu: Trong lúc tập, cổ và đầu phải được thoải mái; hai chiếc ghế/vật kê rất quan trọng cho tới khi cơ bụng, hai cánh tay và lưng đủ mạnh để giữ tư thế một mình mà không cần trợ giúp.
+*Lưu ý: KHÔNG thực hành tư thế này nếu bị đau tim, huyết áp thấp. Tránh tập nếu bị khó thở, hen suyễn, viêm cuống phổi, cảm lạnh, xung huyết, đau nửa đầu, hội chứng mệt mỏi kinh niên hoặc mất ngủ, thoái hóa đốt sống cổ, đau lưng trầm trọng, tiêu chảy, hoặc các cơn đau do hành kinh.
+
+## 32. Tư thế anh hùng úp mặt (Adhomukha Virasana)
+Tác dụng: Là tư thế cải biên thư giãn sâu, trấn an phần não trước, giảm stress, xoa dịu mắt và thần kinh, đem lại sự tĩnh lặng cho tinh thần, đồng thời đem lại nguồn sinh lực mới sau một ngày làm việc mệt nhọc.
+Cách thực hiện:
+B1: Đặt một chiếc gối ôm lên sàn. Quỳ gối, hai đầu gối kẹp lấy chiếc gối ôm, hạ mông xuống gót chân (tương tự tư thế anh hùng - Virasana, mục 27). Đặt hai bàn tay lên hai đầu gối, lòng bàn tay úp xuống, hai bàn chân nằm sát nhau.
+B2: Đẩy chiếc gối ôm về phía trước. Cúi người tới, đầu trước của gối ôm nằm giữa hai đầu gối, kéo gối ôm lại gần người sao cho nó nằm ngay phía dưới bụng. Duỗi hai cánh tay hết mức và đặt hai bàn tay lên sàn, ở hai bên đầu kia của gối ôm.
+B3: Hạ lồng ngực xuống gối ôm. Xoải hai cánh tay về phía trước, giãn gáy ra, tựa trán và má lên gối ôm, ép đùi xuống và hạ mông xuống phía sàn. Bụng vẫn giữ mềm. Giữ tư thế trong 30 giây, thở đều.
+Yêu cầu: Giữ lưng thẳng trong bước đầu, thư giãn cổ khi hạ người xuống gối ôm.
+*Lưu ý: KHÔNG thực hành tư thế này nếu bị viêm khớp gối, khó thở, viêm cuống phổi, tiêu chảy, hoặc hội chứng không kềm chế được liên quan tới sự bài tiết.
+
+## 33. Tư thế ngồi xếp bằng úp mặt (Adhomukha Swastikasana)
+Tác dụng: Đem lại hiệu quả thư giãn tuyệt vời, làm giảm bớt sự căng thẳng ở lưng, cổ và tim; giảm các triệu chứng stress trước kỳ kinh nguyệt. Thực hành thường xuyên rất có lợi cho những người có xu hướng hay lo âu, căng thẳng và tinh thần trồi sụt thất thường.
+Cách thực hiện:
+B1: Đặt một chiếc gối ôm lên sàn, vuông góc với một chiếc băng ghế dài. Ngồi lên chiếc gối ôm, ở tư thế chân xếp bằng (Swastikasana — ngồi bắt chéo hai chân đơn giản).
+B2: Cúi người về phía trước, tựa ngực vào chiếc mền/gối kê giữa ngực và ghế để đỡ đầu và ngăn ngừa cổ bị căng thẳng.
+B3: Thở ra, gập người về phía trước, tựa ngực vào chiếc mền, trán đặt lên gối ôm/mền. Đưa hai tay về phía trước và gập khuỷu tay lại, lòng bàn tay phải đặt lên cánh tay trái và ngược lại. Thở ra chậm rãi, cảm nhận sự căng thẳng ở cổ và đầu đang mất đi. Cơ bắp cổ giữ mềm và kéo dài. Giữ tư thế này trong 2 phút, thở đều.
+Yêu cầu: Thân trên tựa thoải mái vào chiếc mền, đổi bên chân bắt chéo sau khi tập xong.
+*Lưu ý: Nếu thấy đau hai bàn chân khi thực hành tư thế này, hãy lót bên dưới một chiếc mền. Nếu bị nhức đầu do stress hoặc đau nửa đầu, dùng băng che mắt.
+
 # DINH DƯỠNG — CÔNG THỨC TÍNH CALO VÀ BẢNG THAM KHẢO
 
 ## Công thức tính BMI (Body Mass Index — chỉ số khối cơ thể)
