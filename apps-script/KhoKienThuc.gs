@@ -1273,6 +1273,7 @@ Yêu cầu: Trong lúc tập, cổ và đầu phải được thoải mái; hai 
 *Lưu ý: KHÔNG thực hành tư thế này nếu bị đau tim, huyết áp thấp. Tránh tập nếu bị khó thở, hen suyễn, viêm cuống phổi, cảm lạnh, xung huyết, đau nửa đầu, hội chứng mệt mỏi kinh niên hoặc mất ngủ, thoái hóa đốt sống cổ, đau lưng trầm trọng, tiêu chảy, hoặc các cơn đau do hành kinh.
 
 ## 32. Tư thế anh hùng úp mặt (Adhomukha Virasana)
+![Tư thế anh hùng úp mặt](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/anh-hung-up-mat.png)
 Tác dụng: Là tư thế cải biên thư giãn sâu, trấn an phần não trước, giảm stress, xoa dịu mắt và thần kinh, đem lại sự tĩnh lặng cho tinh thần, đồng thời đem lại nguồn sinh lực mới sau một ngày làm việc mệt nhọc.
 Cách thực hiện:
 B1: Đặt một chiếc gối ôm lên sàn. Quỳ gối, hai đầu gối kẹp lấy chiếc gối ôm, hạ mông xuống gót chân (tương tự tư thế anh hùng - Virasana, mục 27). Đặt hai bàn tay lên hai đầu gối, lòng bàn tay úp xuống, hai bàn chân nằm sát nhau.
