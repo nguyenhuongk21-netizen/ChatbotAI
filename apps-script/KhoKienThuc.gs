@@ -1210,6 +1210,7 @@ Tránh thực hiện động tác chó 3 chân nếu bạn bị hội chứng �
 Tư thế này cũng không phù hợp với những người bị thương ở lưng, cánh tay hoặc vai, những người bị huyết áp cao, nhiễm trùng mắt hoặc tai trong
 
 ## 26. Tư thế chỗ dựa (Dandasana)
+![Tư thế chỗ dựa](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/cho-dua.jpeg)
 Tác dụng: Là nền tảng cho các tư thế ngồi gập người về phía trước, giúp cải thiện dáng ngồi. Đây là tư thế phù hợp cho người bị viêm, sưng đầu gối và mắt cá chân. Với người hay lo nghĩ, tâm trạng thất thường, luyện tập thường xuyên giúp tăng cường ý chí, ổn định cảm xúc.
 Cách thực hiện:
 B1: Ngồi trên sàn, hai chân duỗi thẳng về phía trước. Dùng hai tay kéo phần thịt mông sang hai bên sao cho ngồi lên đúng xương ngồi (không ngồi đè lên phần thịt mông). Giữ đùi, đầu gối, mắt cá chân và hai bàn chân sát cạnh nhau.
@@ -1220,6 +1221,7 @@ Yêu cầu: Thư giãn cơ mặt và mắt, mở rộng lòng bàn chân, không
 *Lưu ý: Nếu cột sống có xu hướng bị cong, hoặc đang lên cơn hen suyễn nghiêm trọng, hãy để cột sống tựa vào tường khi tập.
 
 ## 27. Tư thế anh hùng (Virasana)
+![Tư thế anh hùng](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/anh-hung.jpeg)
 Tác dụng: Đem lại sức mạnh và sự dẻo dai, làm nở nang lồng ngực giúp hít thở sâu hơn, giảm bớt cứng nhắc trong các khớp xương, cải thiện độ mềm dẻo của toàn cơ thể.
 Cách thực hiện:
 B1: Quỳ trên sàn, hai đầu gối chụm vào nhau, hai bàn chân cách nhau khoảng 0,5m, các ngón chân đều nằm trên sàn.
@@ -1230,6 +1232,7 @@ Yêu cầu: Các ngón chân đều phải nằm trên sàn nhà, hai cánh tay 
 *Lưu ý: Nếu dây chằng ở đầu gối đang bị thương, hãy dùng một tấm trải để lót chân, hoặc ngồi lên gót chân thay vì hạ hẳn mông xuống sàn. KHÔNG thực hiện tư thế này nếu bạn mắc bệnh tim.
 
 ## 28. Tư thế góc cố định (Baddhakonasana)
+![Tư thế góc cố định](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/goc-co-dinh.jpeg)
 Tác dụng: Thực hành thường xuyên giúp tăng lưu thông máu tới bụng, khung chậu và lưng; hỗ trợ giảm nhẹ các chứng viêm khớp đầu gối, khớp hông, khớp chậu; hỗ trợ điều hòa kinh nguyệt. Tài liệu có ghi nhận phụ nữ mang thai giữ tư thế này vài phút mỗi ngày có thể giảm bớt khó chịu khi sinh nở và ít gặp chứng giãn tĩnh mạch hơn — đây là thông tin tham khảo, không thay thế chỉ định của bác sĩ sản khoa, nếu đang mang thai nên hỏi ý kiến bác sĩ/huấn luyện viên trước khi tập.
 Cách thực hiện:
 B1: Ngồi ở tư thế chỗ dựa (Dandasana, xem mục 26). Co đầu gối phải lại, dùng hai bàn tay giữ gót chân và mắt cá chân phải, kéo bàn chân phải về phía háng, chân trái vẫn giữ thẳng trên sàn.
@@ -1240,6 +1243,7 @@ Yêu cầu: Giữ thẳng cổ, không nâng vai lên, thả lỏng vai và cổ
 *Lưu ý: KHÔNG thực hành tư thế này nếu đã cắt bỏ tử cung hoặc đang bị sa dạ con.
 
 ## 29. Tư thế ngồi xoạc rộng chân (Upavista Konasana)
+![Tư thế ngồi xoạc rộng chân](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/ngoi-xoac-rong-chan.png)
 Tác dụng: Giúp giảm căng thẳng ở các cơ bắp vùng bụng, hỗ trợ giảm chứng viêm khớp hông và đau hông, xoa bóp các cơ quan thuộc hệ sinh sản, kích thích buồng trứng, hỗ trợ điều hòa kinh nguyệt và giảm các chứng đau liên quan đến kinh nguyệt.
 Cách thực hiện:
 B1: Ngồi ở tư thế chỗ dựa (Dandasana, mục 26), lưng thẳng đứng, ngồi trên xương mông. Chống hai bàn tay xuống sàn cạnh hông, các ngón tay hướng ra trước, mắt nhìn thẳng về phía trước.
@@ -1249,6 +1253,7 @@ Yêu cầu: Các ngón chân hướng lên trần nhà, kéo giãn nhưng không
 *Lưu ý: Nếu bị hen suyễn, nên ngồi trên một chiếc mền đã gấp lại khi tập tư thế này.
 
 ## 30. Tư thế kéo giãn lưng mạnh mẽ (Paschimottanasana)
+![Tư thế kéo giãn lưng mạnh mẽ](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/keo-gian-lung-manh-me.webp)
 Tác dụng: Giảm chứng đau lưng dưới, làm mềm dẻo cột sống. Khi thực hành, asana này khiến đầu óc tỉnh táo, trấn an tinh thần, đem lại sinh lực cho toàn bộ cơ thể; giảm viêm khớp vai và khuỷu tay, cải thiện tuần hoàn máu ở cánh tay, tăng sức mạnh cho khớp khuỷu tay và eo; hai bàn chân và hai chân được nghỉ ngơi; hỗ trợ tình trạng không kềm được trong sự bài tiết.
 Cách thực hiện:
 B1: Ngồi ở tư thế chỗ dựa (Dandasana). Đặt hai chiếc gối ôm chồng lên nhau đặt ngang đầu gối. Các mắt cá chân, gót chân và ngón chân cái phải sát cạnh nhau. Duỗi hai cánh tay qua chồng gối và gập người ra phía trước, nắm lấy các ngón chân, giữ cả hai chân thật thẳng, ép đùi và đầu gối vào nhau.
@@ -1258,6 +1263,7 @@ Yêu cầu: Đặt hai cánh tay lên chồng gối ôm thoải mái, không đ�
 *Lưu ý: KHÔNG tập tư thế này nếu bị hen suyễn, viêm cuống phổi, tiêu chảy hoặc thoái hóa đốt sống cổ.
 
 ## 31. Tư thế chiếc thuyền trọn vẹn (Paripurna Navasana)
+![Tư thế chiếc thuyền trọn vẹn](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/chiec-thuyen-tron-ven.jpeg)
 Tác dụng: Thân hình mang dáng dấp một chiếc thuyền khi vào tư thế này. Rèn luyện cơ bắp và các cơ quan vùng bụng, đồng thời tác động tới cổ và kích thích tuyến giáp.
 Cách thực hiện:
 B1: Ngồi trên xương mông, hai chân duỗi thẳng, hai đầu gối gập lại. Nâng chân phải lên, đặt bắp chân phải lên ghế hoặc vật kê trước mặt. Hai đầu gối và hai bàn chân để sát cạnh nhau, nhấn gót chân xuống, lòng bàn tay úp xuống đùi.
@@ -1276,6 +1282,7 @@ Yêu cầu: Giữ lưng thẳng trong bước đầu, thư giãn cổ khi hạ n
 *Lưu ý: KHÔNG thực hành tư thế này nếu bị viêm khớp gối, khó thở, viêm cuống phổi, tiêu chảy, hoặc hội chứng không kềm chế được liên quan tới sự bài tiết.
 
 ## 33. Tư thế ngồi xếp bằng úp mặt (Adhomukha Swastikasana)
+![Tư thế ngồi xếp bằng úp mặt](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/ngoi-xep-bang-up-mat.png)
 Tác dụng: Đem lại hiệu quả thư giãn tuyệt vời, làm giảm bớt sự căng thẳng ở lưng, cổ và tim; giảm các triệu chứng stress trước kỳ kinh nguyệt. Thực hành thường xuyên rất có lợi cho những người có xu hướng hay lo âu, căng thẳng và tinh thần trồi sụt thất thường.
 Cách thực hiện:
 B1: Đặt một chiếc gối ôm lên sàn, vuông góc với một chiếc băng ghế dài. Ngồi lên chiếc gối ôm, ở tư thế chân xếp bằng (Swastikasana — ngồi bắt chéo hai chân đơn giản).
@@ -1285,6 +1292,7 @@ Yêu cầu: Thân trên tựa thoải mái vào chiếc mền, đổi bên chân
 *Lưu ý: Nếu thấy đau hai bàn chân khi thực hành tư thế này, hãy lót bên dưới một chiếc mền. Nếu bị nhức đầu do stress hoặc đau nửa đầu, dùng băng che mắt.
 
 ## 34. Tư thế chó úp mặt duỗi mình (Adhomukha Svanasana)
+![Tư thế chó úp mặt duỗi mình](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/cho-up-mat-duoi-minh.webp)
 Tác dụng: Là một trong những tư thế nền tảng của yoga, đem luồng máu tươi dồn về tim và não, tăng thể lực cho toàn thân, kéo giãn tứ chi và có tác dụng xoa dịu, trấn an tinh thần. Giúp tăng cảm giác tự tin, giảm nhức đầu và huyết áp cao, đem lại nguồn sinh lực mới cho cơ thể.
 Cách thực hiện:
 B1: Quỳ gối trên thảm, hai bàn tay và hai đầu gối chống xuống sàn, hai bàn tay đặt rộng bằng vai, hai bàn chân cách nhau khoảng 30-45cm.
@@ -1294,6 +1302,7 @@ Yêu cầu: Người mới tập không nên giữ tư thế cuối cùng quá 3
 *Lưu ý: KHÔNG thực hành tư thế này nếu đang bị tiêu chảy hoặc giãn tĩnh mạch. Người bị viêm khớp xương kèm sốt cao không nên tập. Nếu huyết áp cao hoặc hay bị nhức đầu tái đi tái lại, luôn tựa đầu lên khối gạch hoặc ghế đẩu khi thực hành.
 
 ## 35. Tư thế gập đầu gối, ngửa mặt lên trên (Urdhvamukha Janu Sirsasana)
+![Tư thế gập đầu gối, ngửa mặt lên trên](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/gap-dau-goi-ngua-mat.png)
 Tác dụng: Giúp giảm đau lưng dưới và thắt lưng, giảm sự cứng đờ ở gáy, xoa bóp thận và các cơ quan vùng bụng, cải thiện chức năng sinh sản và vùng khung chậu, điều hòa kinh nguyệt.
 Cách thực hiện:
 B1: Ngồi ở tư thế chỗ dựa (Dandasana, mục 26). Gập đầu gối phải lại sao cho lòng bàn chân phải chạm đùi trái, gót chân phải tựa vào háng.
@@ -1303,6 +1312,7 @@ Yêu cầu: Không ngửa đầu quá xa ra sau; giữ vai thả lỏng, không 
 *Lưu ý: Tránh tập tư thế này nếu đang mệt, huyết áp thấp, nghẽn động mạch, nhức đầu do stress, đau nửa đầu, hoặc căng nhức mắt, mất ngủ hay tiêu chảy.
 
 ## 36. Tư thế vặn người trên ghế tựa (Bharadvajasana trên ghế tựa)
+![Tư thế vặn người trên ghế tựa](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/van-nguoi-tren-ghe-tua.png)
 Tác dụng: Giúp cột sống dẻo dai hơn, giảm chứng viêm khớp lưng dưới, giảm sự cứng đờ ở cổ và vai, giảm viêm khớp gối, cải thiện tiêu hóa — phù hợp cho người lớn tuổi, người mới hồi phục sau bệnh hoặc chưa quen vặn người trên sàn.
 Cách thực hiện:
 B1: Ngồi nghiêng trên một bên ghế (ghế không có tay vịn), phía bên phải người tựa vào lưng ghế. Ngồi thẳng lưng, thở ra, hai tay nắm lấy mép ngoài của lưng ghế.
@@ -1312,6 +1322,7 @@ Yêu cầu: Giữ hai bàn chân đặt vững trên sàn suốt quá trình v�
 *Lưu ý: Tránh tập tư thế này khi bị nghẽn động mạch, huyết áp thấp hoặc cao, viêm cuống phổi, nhức đầu, đau nửa đầu, nhức mỏi mắt, tiêu chảy, mất ngủ, mệt mỏi, viêm khớp gối, hoặc trong lúc hành kinh.
 
 ## 37. Tư thế kéo giãn thân trên (Bharadvajasana)
+![Tư thế kéo giãn thân trên](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/keo-gian-than-tren.webp)
 Tác dụng: Tác động tới cột sống lưng và vùng thắt lưng, cải thiện tuần hoàn máu ở các cơ quan vùng bụng, tăng sự mềm dẻo toàn bộ cơ thể, hỗ trợ chữa viêm khớp, thoái hóa đốt sống cổ, thấp khớp gót chân, đầu gối, hông và vai.
 Cách thực hiện:
 B1: Ngồi trên một chiếc mền gấp lại, ở tư thế chỗ dựa (Dandasana). Gập hai đầu gối lại và đưa hai bàn chân về gần mông bên trái, mắt cá chân trái đặt lên lòng bàn chân phải, hai đầu gối ép sát nhau.
@@ -1321,6 +1332,7 @@ Yêu cầu: Hai đầu gối luôn ép sát nhau trong suốt tư thế, mắt v
 *Lưu ý: Không tập tư thế này nếu bị đau tim, huyết áp cao và thấp, đau nửa đầu, nhức đầu, nhức mỏi mắt nặng, cảm lạnh, xung huyết, hội chứng mệt mỏi kinh niên, trầm cảm, mất ngủ hay viêm khớp gối. Phụ nữ không tập lúc đang hành kinh.
 
 ## 38. Tư thế kéo giãn thân trên và hai chân (Marichyasana)
+![Tư thế kéo giãn thân trên và hai chân](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/keo-gian-than-tren-va-chan.webp)
 Tác dụng: Kết hợp hai kiểu tập truyền thống (gập người về phía trước và vặn người sang bên), giúp giảm chứng đau thắt lưng, thoái hóa đốt sống cổ, tăng tuần hoàn máu vùng bụng, cải thiện tiêu hóa, giảm đầy hơi, hỗ trợ chữa thoát vị, tăng cường chức năng gan và thận.
 Cách thực hiện:
 B1: Ngồi trên một chiếc mền gấp lại, ở tư thế chỗ dựa (Dandasana). Đặt một khối gạch yoga phía sau lưng. Gập đầu gối phải lại, bàn chân phải vuông góc với sàn nhà, gót chân phải chạm hông. Giữ chân trái duỗi thẳng.
@@ -1330,6 +1342,7 @@ Yêu cầu: Giữ đầu, mắt và cổ bất động trong suốt tư thế; l
 *Lưu ý: Không tập tư thế này nếu bị đau tim, huyết áp cao hay thấp, đau nửa đầu, nhức đầu, cảm lạnh hoặc bị xung huyết ở ngực, hội chứng mệt mỏi kinh niên, mất ngủ, trầm cảm, hoặc viêm khớp gối. Phụ nữ không tập lúc đang hành kinh.
 
 ## 39. Tư thế anh hùng, nằm ngửa (Supta Virasana)
+![Tư thế anh hùng, nằm ngửa](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/anh-hung-nam-ngua.png)
 Tác dụng: Là thế tập ít nặng hơn tư thế truyền thống, giúp trấn an tâm trí bồn chồn, kích động, đem lại trạng thái tinh thần tốt cho buổi tập. Giảm bớt mệt mỏi, kích thích hoạt động của toàn bộ cơ thể, mở rộng lồng ngực nên đặc biệt có lợi cho tim. Nên thực hành ngay đầu buổi tập yoga.
 Cách thực hiện:
 B1: Quỳ gối trong tư thế anh hùng (Virasana, mục 27), đặt một chiếc gối ôm ngay sau lưng, một đầu gối ôm chạm vào mông. Đặt các ngón tay xuống sàn, bên cạnh các ngón chân, mặt trong hai bàn chân ép sát hông.
@@ -1340,6 +1353,7 @@ Yêu cầu: Không nhấc vai lên khỏi sàn; hai đùi luôn ép sát nhau tr
 *Lưu ý: Không tập tư thế này nếu đang đau lưng dưới, viêm họng, tắc nghẽn một phần động mạch, hoặc mới hồi phục sau phẫu thuật — với các trường hợp này chỉ nên tập dưới sự hướng dẫn trực tiếp của huấn luyện viên.
 
 ## 40. Tư thế xác chết (Savasana)
+![Tư thế xác chết](https://nguyenhuongk21-netizen.github.io/ChatbotAI/images/xac-chet.jpg)
 Tác dụng: Là tư thế thư giãn kết thúc buổi tập yoga, giúp loại bỏ mệt mỏi cả về thể xác lẫn tinh thần, xoa dịu hệ thần kinh giao cảm, giảm huyết áp cao, giảm đau nửa đầu do stress, cải thiện giấc ngủ. Sự bất động trong tư thế này không phải là thụ động, mà là sự buông bỏ có ý thức, cho phép năng lượng và hơi thở đều, êm luân chuyển khắp cơ thể.
 Cách thực hiện:
 B1: Trải chiếu xuống sàn. Đặt một chiếc gối ôm lên chiếu (chiều dài gối ôm song song với chiều dài chiếu). Ngồi ở tư thế chỗ dựa, một đầu gối ôm chạm vào mông, đặt một chiếc mền lên đầu kia của gối ôm.
